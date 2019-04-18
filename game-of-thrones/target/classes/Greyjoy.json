@@ -1,0 +1,32 @@
+{
+    "houseName": "Greyjoy of Pyke",
+    "tagLines": "What Is Dead May Never Die",
+    "members": [
+        {
+            "name": "Lord Reaper of Pyke.",
+            "strength": 70
+        }
+    ],
+    "weapons": [
+        {
+            "name": "swords",
+            "strength": 10
+        },
+        {
+            "name": "spears",
+            "strength": 10
+        },
+        {
+            "name": "catapault",
+            "strength": 10
+        },
+        {
+            "name": "army at command",
+            "strength": 20
+        },
+        {
+            "name": "ships",
+            "strength": 50
+        }
+    ]
+}

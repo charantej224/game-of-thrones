@@ -1,0 +1,36 @@
+{
+    "houseName": "Tyrell of Highgarden",
+    "tagLines": "fire & blood",
+    "members": [
+        {
+            "name": "Robert Tyrell",
+            "strength": 50
+        },
+        {
+            "name": "Lorent Tyrell,",
+            "strength": 60
+        }
+    ],
+    "weapons": [
+        {
+            "name": "swords",
+            "strength": 10
+        },
+        {
+            "name": "spears",
+            "strength": 10
+        },
+        {
+            "name": "catapault",
+            "strength": 10
+        },
+        {
+            "name": "army at command",
+            "strength": 20
+        },
+        {
+            "name": "poison",
+            "strength": 40
+        }
+    ]
+}

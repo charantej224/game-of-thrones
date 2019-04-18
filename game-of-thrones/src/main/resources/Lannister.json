@@ -1,0 +1,40 @@
+{
+    "houseName": "Lannister of Casterly Rock.",
+    "tagLines": "A Lannister always pays his debts.",
+    "members": [
+        {
+            "name": "Cersai Lanister",
+            "strength": 70
+        },
+        {
+            "name": "Tyrion Lanister",
+            "strength": 50
+        },
+        {
+            "name": "Jamie Lanister",
+            "strength": 60
+        },
+        {
+            "name": "Tywin Lanister ",
+            "strength": 80
+        }
+    ],
+    "weapons": [
+        {
+            "name": "swords",
+            "strength": 10
+        },
+        {
+            "name": "spears",
+            "strength": 10
+        },
+        {
+            "name": "catapault",
+            "strength": 10
+        },
+        {
+            "name": "army at command",
+            "strength": 40
+        }
+    ]
+}

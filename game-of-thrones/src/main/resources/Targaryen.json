@@ -1,0 +1,36 @@
+{
+    "houseName": "Targaryen of King's Landing",
+    "tagLines": "fire & blood",
+    "members": [
+        {
+            "name": "Viserys Targaryen",
+            "strength": 50
+        },
+        {
+            "name": "Daenerys Targaryen",
+            "strength": 90
+        }
+    ],
+    "weapons": [
+        {
+            "name": "swords",
+            "strength": 10
+        },
+        {
+            "name": "spears",
+            "strength": 10
+        },
+        {
+            "name": "catapault",
+            "strength": 10
+        },
+        {
+            "name": "army at command",
+            "strength": 20
+        },
+        {
+            "name": "dragons",
+            "strength": 50
+        }
+    ]
+}
