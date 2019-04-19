@@ -11,7 +11,8 @@ public class ApplicationConfiguration {
     private static ApplicationConfiguration applicationConfiguration;
 
     private Properties gameProperties;
-
+    private Properties patternProperties;
+    private Properties helptextProperties;
     private Map<String, HousesModel> houseMap = new HashMap<>();
 
     private ApplicationConfiguration() {
@@ -20,6 +21,14 @@ public class ApplicationConfiguration {
 
     public static ApplicationConfiguration getApplicationConfiguration() {
         return applicationConfiguration = (null != applicationConfiguration) ? applicationConfiguration : new ApplicationConfiguration();
+    }
+
+    public Properties getPatternProperties() {
+        return patternProperties;
+    }
+
+    public void setPatternProperties(Properties patternProperties) {
+        this.patternProperties = patternProperties;
     }
 
     public Properties getGameProperties() {
@@ -37,4 +46,13 @@ public class ApplicationConfiguration {
     public void setHouseMap(Map<String, HousesModel> houseMap) {
         this.houseMap = houseMap;
     }
+
+    public Properties getHelptextProperties() {
+        return helptextProperties;
+    }
+
+    public void setHelptextProperties(Properties helptextProperties) {
+        this.helptextProperties = helptextProperties;
+    }
+
 }

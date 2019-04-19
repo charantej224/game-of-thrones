@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class GameApplication {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         FileLoader.loadFiles();
-        //GameLauncher.getGamelauncher().launchGame();
+        GameLauncher.getGamelauncher().launchGame();
     }
 
 }

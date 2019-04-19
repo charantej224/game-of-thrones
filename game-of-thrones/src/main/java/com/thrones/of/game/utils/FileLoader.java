@@ -15,18 +15,24 @@ public class FileLoader {
 
     public static void loadFiles() throws IOException {
         ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getApplicationConfiguration();
-        Properties properties = getResource("game.properties");
-        applicationConfiguration.setGameProperties(properties);
+        Properties helpTextProperties = getResource("helptext.properties");
+        Properties patternProperties = getResource("pattern.properties");
+        Properties ganeProperties = getResource("game.properties");
+        applicationConfiguration.setGameProperties(ganeProperties);
+        applicationConfiguration.setHelptextProperties(helpTextProperties);
+        applicationConfiguration.setPatternProperties(patternProperties);
         int i = 1;
-        while (null != properties.getProperty("house." + i)) {
-            String house = properties.getProperty("house." + i);
+        System.out.println("loading GOT house models.....");
+        while (null != ganeProperties.getProperty("house." + i)) {
+            String house = ganeProperties.getProperty("house." + i);
             System.out.println("loading house " + house + " ...");
             String houseContent = getResource(house + ".json", StandardCharsets.UTF_8.name());
             ObjectMapper objectMapper = new ObjectMapper();
             HousesModel housesModel = objectMapper.readValue(houseContent, HousesModel.class);
-            applicationConfiguration.getHouseMap().put(house,housesModel);
+            applicationConfiguration.getHouseMap().put(house, housesModel);
             i++;
         }
+        System.out.println("loading GOT house models - Complete");
     }
 
     public static Properties getResource(String fileName) throws IOException {
@@ -43,7 +49,6 @@ public class FileLoader {
                 inputStream.close();
             }
         }
-
     }
 
     public static String getResource(String fileName, String charSet) throws IOException {
@@ -68,10 +73,6 @@ public class FileLoader {
             if (result != null)
                 result.close();
         }
-
-
-        //return result.toString(StandardCharsets.UTF_8.name());
-
     }
 
 }
