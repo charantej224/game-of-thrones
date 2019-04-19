@@ -77,4 +77,12 @@ public class HousesModel {
         this.additionalProperties.put(name, value);
     }
 
+    @Override
+    public String toString() {
+        return
+                "houseName=" + houseName + "\n" +
+                "tagLines=" + tagLines + "\n" +
+                "members=" + members + "\n" +
+                "weapons=" + weapons ;
+    }
 }

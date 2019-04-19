@@ -28,6 +28,10 @@ public class Session implements Serializable {
         return session = (null != session) ? session : new Session();
     }
 
+    public void clearSession(){
+        session = new Session();
+    }
+
     public Member getSelectedCharacter() {
         return selectedCharacter;
     }

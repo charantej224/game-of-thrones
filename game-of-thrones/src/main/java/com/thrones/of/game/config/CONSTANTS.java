@@ -3,6 +3,10 @@ package com.thrones.of.game.config;
 public class CONSTANTS {
 
     public static String ENTRY_WELCOME = "ENTRY_WELCOME";
+    public static String NAME_REGISTERED = "NAME_REGISTERED";
+    public static String NAME_DEREGISTERED = "NAME_DEREGISTERED";
+    public static String EXIT_MESSAGE = "EXIT_MESSAGE";
+
 
     // Reset
     public static final String RESET = "\033[0m";  // Text Reset

@@ -5,6 +5,8 @@ import com.thrones.of.game.resolver.QueryResolver;
 
 import java.util.Scanner;
 
+import static com.thrones.of.game.config.CONSTANTS.RED;
+
 public class GameLauncher {
 
     private static GameLauncher gameLauncher;
@@ -21,7 +23,7 @@ public class GameLauncher {
         boolean isGameRunning = true;
         Scanner in = new Scanner(System.in);
         while (isGameRunning){
-            System.out.println("your command my Load " + session.getPlayerName());
+            System.out.println(RED + "your command my Load ");
             String s = in.nextLine();
             QueryResolver queryResolver = new QueryResolver();
             queryResolver.resolveQuery(s);

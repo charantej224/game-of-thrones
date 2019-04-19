@@ -54,4 +54,8 @@ public class Member {
         this.additionalProperties.put(name, value);
     }
 
+    @Override
+    public String toString() {
+        return "\nCharacter = " + name + " - strength = " + strength;
+    }
 }

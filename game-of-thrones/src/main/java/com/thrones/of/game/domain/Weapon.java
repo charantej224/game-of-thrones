@@ -54,4 +54,8 @@ public class Weapon {
         this.additionalProperties.put(name, value);
     }
 
+    @Override
+    public String toString() {
+        return "\nWeapon = " + name + " - cost required (in strength units) = " + strength;
+    }
 }
