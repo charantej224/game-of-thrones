@@ -4,7 +4,7 @@ import com.thrones.of.game.resolver.QueryResolver;
 
 import java.util.Scanner;
 
-import static com.thrones.of.game.config.CONSTANTS.RED;
+import static com.thrones.of.game.config.Constants.RED;
 
 public class GameLauncher {
 

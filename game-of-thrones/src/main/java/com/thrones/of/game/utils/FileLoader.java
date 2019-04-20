@@ -11,7 +11,7 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
-import static com.thrones.of.game.config.CONSTANTS.GREEN;
+import static com.thrones.of.game.config.Constants.GREEN;
 
 public class FileLoader {
 

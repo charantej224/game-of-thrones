@@ -1,6 +1,6 @@
 package com.thrones.of.game.config;
 
-public class CONSTANTS {
+public class Constants {
 
     public static final String NAME_ALREADY_REGISTERED = "NAME_ALREADY_REGISTERED";
     public static final String ENTRY_WELCOME = "ENTRY_WELCOME";
@@ -37,10 +37,8 @@ public class CONSTANTS {
     public static final String ENEMY_WEAPON_KILLED = "ENEMY_WEAPON_KILLED";
     public static final String NO_STRENGTH = "NO_STRENGTH";
     public static final String NEW_GAME = "NEW_GAME";
-
-
-
-
+    public static final String TRAIN_ME = "TRAIN_ME";
+    public static final String TRAIN_ME1 = "TRAIN_ME1";
 
 
     public static final Integer MAX_POINTS = 100;

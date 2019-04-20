@@ -8,7 +8,7 @@ import com.thrones.of.game.domain.Weapon;
 import java.util.Optional;
 import java.util.Properties;
 
-import static com.thrones.of.game.config.CONSTANTS.*;
+import static com.thrones.of.game.config.Constants.*;
 
 public class FightModuleProcessor {
 

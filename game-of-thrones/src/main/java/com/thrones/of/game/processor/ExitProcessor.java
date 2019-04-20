@@ -7,7 +7,7 @@ import com.thrones.of.game.utils.InputOutputHelper;
 import java.io.IOException;
 import java.util.Properties;
 
-import static com.thrones.of.game.config.CONSTANTS.*;
+import static com.thrones.of.game.config.Constants.*;
 
 public class ExitProcessor {
 

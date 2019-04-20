@@ -2,8 +2,8 @@ package com.thrones.of.game.domain;
 
 import java.io.Serializable;
 
-import static com.thrones.of.game.config.CONSTANTS.MAX_POINTS;
-import static com.thrones.of.game.config.CONSTANTS.MIN_POINTS;
+import static com.thrones.of.game.config.Constants.MAX_POINTS;
+import static com.thrones.of.game.config.Constants.MIN_POINTS;
 
 public class PlayerProfile implements Serializable {
 
