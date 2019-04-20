@@ -39,8 +39,8 @@ public class HelpProcessor {
 
 
     public void getInfo(String input) {
-        if (session.getPlayerName() != null) {
-            System.out.println(helpProperties.getProperty(SESSION_INFO).replace("$$", session.getPlayerName()));
+        if (session.getPlayerProfile() != null) {
+            System.out.println(helpProperties.getProperty(SESSION_INFO).replace("$$", session.getPlayerProfile().getPlayerName()));
             System.out.println(helpProperties.getProperty(HOUSE_INFO).replace("$$", session.getSelectedHouse().getHouseName() + " \n \t\t\t\t-- " + session.getSelectedHouse().getTagLines()));
             System.out.println(helpProperties.getProperty(MEMBER_INFO).replace("$$", session.getSelected().getName()));
             System.out.println(helpProperties.getProperty(ENEMY_HOUSE_INFO).replace("$$", session.getEnemyHouse().getHouseName() + " \n \t\t\t\t-- " + session.getEnemyHouse().getTagLines()));

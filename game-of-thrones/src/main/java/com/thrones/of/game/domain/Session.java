@@ -1,11 +1,15 @@
 package com.thrones.of.game.domain;
 
+import com.thrones.of.game.utils.InputOutputHelper;
+
+import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
 
 public class Session implements Serializable {
 
-    private String playerName;
+    private PlayerProfile playerProfile;
+
     private Member selected;
     private Member enemy;
     private List<Weapon> selectedWeapons;
@@ -20,20 +24,31 @@ public class Session implements Serializable {
 
     }
 
-    public String getPlayerName() {
-        return playerName;
-    }
-
-    public void setPlayerName(String playerName) {
-        this.playerName = playerName;
-    }
-
     public static Session getInstance() {
-        return session = (null != session) ? session : new Session();
+        if(session != null)
+            return session;
+        try {
+            InputOutputHelper<Session> inputOutputHelper = new InputOutputHelper<>();
+            session = inputOutputHelper.readFile("session.ser");
+        } catch (IOException ioException){
+            ioException.printStackTrace();
+        }
+        if(session == null)
+            return session = new Session();
+        else
+            return session;
     }
 
     public void clearSession() {
         session = new Session();
+    }
+
+    public PlayerProfile getPlayerProfile() {
+        return playerProfile;
+    }
+
+    public void setPlayerProfile(PlayerProfile playerProfile) {
+        this.playerProfile = playerProfile;
     }
 
     public Member getSelected() {
