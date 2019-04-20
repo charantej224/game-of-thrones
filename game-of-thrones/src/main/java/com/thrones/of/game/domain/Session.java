@@ -9,7 +9,6 @@ import java.util.List;
 public class Session implements Serializable {
 
     private PlayerProfile playerProfile;
-
     private Member selected;
     private Member enemy;
     private List<Weapon> selectedWeapons;
@@ -17,11 +16,9 @@ public class Session implements Serializable {
     private HousesModel selectedHouse;
     private HousesModel enemyHouse;
 
-
     private static Session session;
 
     private Session() {
-
     }
 
     public static Session getInstance() {

@@ -23,8 +23,26 @@ public class CONSTANTS {
     public static final String ENEMY_HOUSE_INFO = "ENEMY_HOUSE_INFO";
     public static final String ENEMY_INFO = "ENEMY_INFO";
     public static final String SESSION_NOT_READY = "SESSION_NOT_READY";
-    public static final String PROFILE_SAVED = "SESSION_NOT_READY";
+    public static final String PROFILE_SAVED = "PROFILE_SAVED";
+    public static final String PLAYER_STRENGTH = "PLAYER_STRENGTH";
+    public static final String PLAYER_WEAPONS = "PLAYER_WEAPONS";
+    public static final String NO_WEAPON_FOUND = "NO_WEAPON_FOUND";
+    public static final String FIGHT_WEAPON = "FIGHT_WEAPON";
+    public static final String YOU_WIN = "YOU_WIN";
+    public static final String YOU_LOSE = "YOU_LOSE";
+    public static final String YOU_TIED = "YOU_TIED";
+    public static final String ENEMY_NO_WEAPONS_LOST = "ENEMY_NO_WEAPONS_LOST";
+    public static final String YOU_NO_WEAPONS_LOST = "YOU_NO_WEAPONS_LOST";
+    public static final String YOUR_WEAPON_KILLED = "YOUR_WEAPON_KILLED";
+    public static final String ENEMY_WEAPON_KILLED = "ENEMY_WEAPON_KILLED";
+    public static final String NO_STRENGTH = "NO_STRENGTH";
 
+
+
+
+
+    public static final Integer MAX_POINTS = 100;
+    public static final Integer MIN_POINTS = 0;
 
     // Reset
     public static final String RESET = "\033[0m";  // Text Reset

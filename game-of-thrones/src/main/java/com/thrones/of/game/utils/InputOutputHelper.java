@@ -14,7 +14,7 @@ public class InputOutputHelper<T> {
             T readObject = (T) objectInputStream.readObject();
             return readObject;
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("Cache File not present, create new");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

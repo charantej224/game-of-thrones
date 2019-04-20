@@ -3,6 +3,7 @@ package com.thrones.of.game.domain;
 
 import com.fasterxml.jackson.annotation.*;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.Map;
         "members",
         "weapons"
 })
-public class HousesModel implements Cloneable {
+public class HousesModel implements Cloneable, Serializable {
 
     @JsonProperty("houseName")
     private String houseName;

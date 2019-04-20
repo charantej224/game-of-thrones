@@ -65,7 +65,7 @@ public class CharacterSelector {
                         .findFirst();
         if(optionalMember.isPresent()){
             System.out.println(helpProperties.getProperty(ENEMY_SELECTED).replace("$$", optionalMember.get().getName()));
-            session.setSelected(optionalMember.get().clone());
+            session.setEnemy(optionalMember.get().clone());
         } else {
             System.out.println(helpProperties.getProperty(NO_MEMBER));
 

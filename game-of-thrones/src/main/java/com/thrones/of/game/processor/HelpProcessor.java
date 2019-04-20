@@ -44,10 +44,15 @@ public class HelpProcessor {
             System.out.println(helpProperties.getProperty(HOUSE_INFO).replace("$$", session.getSelectedHouse().getHouseName() + " \n \t\t\t\t-- " + session.getSelectedHouse().getTagLines()));
             System.out.println(helpProperties.getProperty(MEMBER_INFO).replace("$$", session.getSelected().getName()));
             System.out.println(helpProperties.getProperty(ENEMY_HOUSE_INFO).replace("$$", session.getEnemyHouse().getHouseName() + " \n \t\t\t\t-- " + session.getEnemyHouse().getTagLines()));
-            System.out.println(helpProperties.getProperty(ENEMY_INFO).replace("$$", session.getSelectedHouse().getHouseName() + " - " + session.getSelectedHouse().getTagLines()));
+            System.out.println(helpProperties.getProperty(ENEMY_INFO).replace("$$", session.getEnemy().getName()));
         } else {
             System.out.println(helpProperties.getProperty(SESSION_NOT_READY));
         }
+    }
+
+    public void getmyWeapons(String input){
+        System.out.println(helpProperties.getProperty(PLAYER_STRENGTH).replace("$$", session.getSelected().getStrength().toString()));
+        System.out.println(helpProperties.getProperty(PLAYER_WEAPONS).replace("$$", session.getSelectedWeapons().toString()));
 
     }
 }
