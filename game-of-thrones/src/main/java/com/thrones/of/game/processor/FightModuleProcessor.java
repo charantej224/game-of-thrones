@@ -16,7 +16,7 @@ public class FightModuleProcessor {
     Properties helpProperties = ApplicationConfiguration.getApplicationConfiguration().getHelptextProperties();
 
     public void fightEnemy(String name) {
-        Optional<Weapon> weaponCheck = session.getSelectedWeapons().stream().filter(weapon -> weapon.getStrength() < session.getSelected().getStrength())
+        Optional<Weapon> weaponCheck = session.getSelectedWeapons().stream().filter(weapon -> weapon.getStrength() <= session.getSelected().getStrength())
                 .findFirst();
         if(!weaponCheck.isPresent()){
             System.out.println("You lost game as you don't have enough strength");
@@ -77,7 +77,6 @@ public class FightModuleProcessor {
             enemy.setStrength(enemy.getStrength() - enemyWeapon.getStrength());
         } else if("MORE".equalsIgnoreCase(status)){
             System.out.println(helpProperties.getProperty(YOUR_WEAPON_KILLED).replace("$$", playerWeapon.getName()).replace("**", enemyWeapon.getName()));
-            session.getSelectedWeapons().remove(playerWeapon);
             session.getEnemyWeapons().remove(enemyWeapon);
             Member selected = session.getSelected();
             Member enemy = session.getEnemy();
@@ -85,7 +84,6 @@ public class FightModuleProcessor {
             enemy.setStrength(enemy.getStrength() - enemyWeapon.getStrength());
         } else if("LESS".equalsIgnoreCase(status)){
             System.out.println(helpProperties.getProperty(YOUR_WEAPON_KILLED).replace("$$", playerWeapon.getName()).replace("**", enemyWeapon.getName()));
-            session.getSelectedWeapons().remove(playerWeapon);
             session.getEnemyWeapons().remove(enemyWeapon);
             Member selected = session.getSelected();
             Member enemy = session.getEnemy();

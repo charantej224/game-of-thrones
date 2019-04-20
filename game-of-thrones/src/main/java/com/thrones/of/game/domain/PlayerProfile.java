@@ -8,11 +8,11 @@ import static com.thrones.of.game.config.CONSTANTS.MIN_POINTS;
 public class PlayerProfile implements Serializable {
 
     private String playerName;
-    private Integer wins;
-    private Integer lost;
-    private Integer ties;
+    private Integer wins = 0;
+    private Integer lost = 0;
+    private Integer ties = 0;
     private String playerLevel = "BEGINNER";
-    private Integer playerPoints;
+    private Integer playerPoints = 0;
 
     public void updateWins() {
         ++wins;
