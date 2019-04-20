@@ -6,7 +6,22 @@ public class CONSTANTS {
     public static String NAME_REGISTERED = "NAME_REGISTERED";
     public static String NAME_DEREGISTERED = "NAME_DEREGISTERED";
     public static String EXIT_MESSAGE = "EXIT_MESSAGE";
-
+    public static String HOUSE_SELECTED = "HOUSE_SELECTED";
+    public static String ENEMY_HOUSE_SELECTED = "ENEMY_HOUSE_SELECTED";
+    public static String HOUSE_TAG = "HOUSE_TAG";
+    public static String HOUSE_NOT_FOUND = "HOUSE_NOT_FOUND";
+    public static String CHOOSE_MEMBERS = "CHOOSE_MEMBERS";
+    public static String HOUSE_NOT_SELECTED = "HOUSE_NOT_SELECTED";
+    public static String ENEMY_SELECTED_SAMEHOUSE = "ENEMY_SELECTED_SAMEHOUSE";
+    public static String ENEMY_SELECTED = "ENEMY_SELECTED";
+    public static String NO_MEMBER = "NO_MEMBER";
+    public static String MEMBER_SELECTED = "MEMBER_SELECTED";
+    public static String SESSION_INFO = "SESSION_INFO";
+    public static String HOUSE_INFO = "HOUSE_INFO";
+    public static String MEMBER_INFO = "MEMBER_INFO";
+    public static String ENEMY_HOUSE_INFO = "ENEMY_HOUSE_INFO";
+    public static String ENEMY_INFO = "ENEMY_INFO";
+    public static String SESSION_NOT_READY = "SESSION_NOT_READY";
 
     // Reset
     public static final String RESET = "\033[0m";  // Text Reset
@@ -80,4 +95,5 @@ public class CONSTANTS {
     public static final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; // PURPLE
     public static final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  // CYAN
     public static final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m";   // WHITE
+
 }

@@ -10,7 +10,6 @@ import static com.thrones.of.game.config.CONSTANTS.RED;
 public class GameLauncher {
 
     private static GameLauncher gameLauncher;
-    private Session session = Session.getInstance();
 
     private GameLauncher() {
     }

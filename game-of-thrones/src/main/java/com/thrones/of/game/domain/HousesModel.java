@@ -3,6 +3,7 @@ package com.thrones.of.game.domain;
 
 import com.fasterxml.jackson.annotation.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,7 +15,7 @@ import java.util.Map;
         "members",
         "weapons"
 })
-public class HousesModel {
+public class HousesModel implements Cloneable {
 
     @JsonProperty("houseName")
     private String houseName;
@@ -81,8 +82,24 @@ public class HousesModel {
     public String toString() {
         return
                 "houseName=" + houseName + "\n" +
-                "tagLines=" + tagLines + "\n" +
-                "members=" + members + "\n" +
-                "weapons=" + weapons ;
+                        "tagLines=" + tagLines + "\n" +
+                        "members=" + members + "\n" +
+                        "weapons=" + weapons;
+    }
+
+    @Override
+    public HousesModel clone() {
+        try {
+            HousesModel houseModelCloned = (HousesModel) super.clone();
+            houseModelCloned.setTagLines(tagLines);
+            houseModelCloned.setMembers(new ArrayList<Member>());
+            houseModelCloned.setWeapons(new ArrayList<Weapon>());
+            members.forEach(member -> houseModelCloned.getMembers().add(member.clone()));
+            weapons.forEach(weapon -> houseModelCloned.getWeapons().add(weapon.clone()));
+            return houseModelCloned;
+        } catch (CloneNotSupportedException exception) {
+            throw new RuntimeException(exception.getMessage());
+        }
+
     }
 }

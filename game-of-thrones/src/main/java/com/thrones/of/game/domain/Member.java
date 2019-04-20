@@ -1,21 +1,17 @@
 
 package com.thrones.of.game.domain;
 
+import com.fasterxml.jackson.annotation.*;
+
 import java.util.HashMap;
 import java.util.Map;
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "name",
-    "strength"
+        "name",
+        "strength"
 })
-public class Member {
+public class Member implements Cloneable {
 
     @JsonProperty("name")
     private String name;
@@ -57,5 +53,14 @@ public class Member {
     @Override
     public String toString() {
         return "\nCharacter = " + name + " - strength = " + strength;
+    }
+
+    @Override
+    public Member clone() {
+        try {
+            return (Member) super.clone();
+        } catch (CloneNotSupportedException exception) {
+            throw new RuntimeException(exception.getMessage());
+        }
     }
 }

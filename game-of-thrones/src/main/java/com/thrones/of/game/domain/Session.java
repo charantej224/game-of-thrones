@@ -1,14 +1,18 @@
 package com.thrones.of.game.domain;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Session implements Serializable {
 
     private String playerName;
-    private Member selectedCharacter;
-    private Member selectedEnemy;
-    private Weapon selectedCharacterWeapons;
-    private Weapon selectedEnemyWeapons;
+    private Member selected;
+    private Member enemy;
+    private List<Weapon> selectedWeapons;
+    private List<Weapon> enemyWeapons;
+    private HousesModel selectedHouse;
+    private HousesModel enemyHouse;
+
 
     private static Session session;
 
@@ -28,39 +32,55 @@ public class Session implements Serializable {
         return session = (null != session) ? session : new Session();
     }
 
-    public void clearSession(){
+    public void clearSession() {
         session = new Session();
     }
 
-    public Member getSelectedCharacter() {
-        return selectedCharacter;
+    public Member getSelected() {
+        return selected;
     }
 
-    public void setSelectedCharacter(Member selectedCharacter) {
-        this.selectedCharacter = selectedCharacter;
+    public void setSelected(Member selected) {
+        this.selected = selected;
     }
 
-    public Member getSelectedEnemy() {
-        return selectedEnemy;
+    public Member getEnemy() {
+        return enemy;
     }
 
-    public void setSelectedEnemy(Member selectedEnemy) {
-        this.selectedEnemy = selectedEnemy;
+    public void setEnemy(Member enemy) {
+        this.enemy = enemy;
     }
 
-    public Weapon getSelectedCharacterWeapons() {
-        return selectedCharacterWeapons;
+    public List<Weapon> getSelectedWeapons() {
+        return selectedWeapons;
     }
 
-    public void setSelectedCharacterWeapons(Weapon selectedCharacterWeapons) {
-        this.selectedCharacterWeapons = selectedCharacterWeapons;
+    public void setSelectedWeapons(List<Weapon> selectedWeapons) {
+        this.selectedWeapons = selectedWeapons;
     }
 
-    public Weapon getSelectedEnemyWeapons() {
-        return selectedEnemyWeapons;
+    public List<Weapon> getEnemyWeapons() {
+        return enemyWeapons;
     }
 
-    public void setSelectedEnemyWeapons(Weapon selectedEnemyWeapons) {
-        this.selectedEnemyWeapons = selectedEnemyWeapons;
+    public void setEnemyWeapons(List<Weapon> enemyWeapons) {
+        this.enemyWeapons = enemyWeapons;
+    }
+
+    public HousesModel getSelectedHouse() {
+        return selectedHouse;
+    }
+
+    public void setSelectedHouse(HousesModel selectedHouse) {
+        this.selectedHouse = selectedHouse;
+    }
+
+    public HousesModel getEnemyHouse() {
+        return enemyHouse;
+    }
+
+    public void setEnemyHouse(HousesModel enemyHouse) {
+        this.enemyHouse = enemyHouse;
     }
 }
