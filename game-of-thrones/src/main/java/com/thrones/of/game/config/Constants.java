@@ -39,6 +39,8 @@ public class Constants {
     public static final String NEW_GAME = "NEW_GAME";
     public static final String TRAIN_ME = "TRAIN_ME";
     public static final String TRAIN_ME1 = "TRAIN_ME1";
+    public static final String STENGTH_BOOST = "STENGTH_BOOST";
+    public static final String LOST_GAME_NO_WEAPON_ELIGIBLE = "LOST_GAME_NO_WEAPON_ELIGIBLE";
 
 
     public static final Integer MAX_POINTS = 100;

@@ -5,8 +5,7 @@ import com.thrones.of.game.config.ApplicationConfiguration;
 import java.lang.reflect.Method;
 import java.util.Properties;
 
-import static com.thrones.of.game.config.Constants.TRAIN_ME;
-import static com.thrones.of.game.config.Constants.TRAIN_ME1;
+import static com.thrones.of.game.config.Constants.*;
 
 public class QueryResolver {
 
@@ -22,16 +21,16 @@ public class QueryResolver {
                     patternProperties.getProperty("pattern" + i + "_class") : null;
             if (null != className) {
                 Object object = Class.forName(className).newInstance();
-                Method method = Class.forName(className).getMethod(patternProperties.getProperty("pattern" + i+"_method"),String.class);
-                method.invoke(object,inputQuery.replace(patternProperties.getProperty("pattern" + i).toLowerCase(), "").trim());
+                Method method = Class.forName(className).getMethod(patternProperties.getProperty("pattern" + i + "_method"), String.class);
+                method.invoke(object, inputQuery.replace(patternProperties.getProperty("pattern" + i).toLowerCase(), "").trim());
                 break;
             }
             i++;
         }
-        if(className == null){
+        if (className == null) {
             Properties helptext = applicationConfiguration.getHelptextProperties();
-            System.out.println(helptext.getProperty(TRAIN_ME));
-            System.out.println(helptext.getProperty(TRAIN_ME1));
+            System.out.println(BLUE + helptext.getProperty(TRAIN_ME));
+            System.out.println(BLUE + helptext.getProperty(TRAIN_ME1));
         }
     }
 }

@@ -15,7 +15,7 @@ public class ExitProcessor {
     Session session = Session.getInstance();
 
     public void quitGame(String action) {
-        System.out.println(PURPLE + helpProperties.getProperty(EXIT_MESSAGE).replace("$$", session.getPlayerProfile().getPlayerName()));
+        System.out.println(PURPLE + helpProperties.getProperty(EXIT_MESSAGE));
         System.out.println(PURPLE + helpProperties.getProperty(PROFILE_SAVED));
         InputOutputHelper<Session> inputOutputHelper = new InputOutputHelper<>();
         try {

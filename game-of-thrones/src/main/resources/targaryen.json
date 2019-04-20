@@ -34,11 +34,11 @@
         },
         {
             "name": "Dothrakis",
-            "strength": 20
+            "strength": 40
         },
         {
             "name": "dragons",
-            "strength": 40
+            "strength": 50
         }
     ]
 }

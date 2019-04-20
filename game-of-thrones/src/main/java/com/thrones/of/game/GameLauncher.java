@@ -21,7 +21,7 @@ public class GameLauncher {
         boolean isGameRunning = true;
         Scanner in = new Scanner(System.in);
         while (isGameRunning) {
-            System.out.println(RED + "your command my Load ");
+            System.out.println(RED + "your command my Lord ");
             String s = in.nextLine();
             QueryResolver queryResolver = new QueryResolver();
             queryResolver.resolveQuery(s);
