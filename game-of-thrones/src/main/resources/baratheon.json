@@ -4,16 +4,24 @@
     "members": [
         {
             "name": "Robert Baratheon",
-            "strength": 60
+            "strength": 70
+        },
+        {
+            "name": "Tommen of House Baratheon",
+            "strength": 40
         }
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "Swordsman",
             "strength": 10
         },
         {
-            "name": "spears",
+            "name": "Chariot Corps",
+            "strength": 10
+        },
+        {
+            "name": "Strike Corps",
             "strength": 10
         },
         {
@@ -21,8 +29,12 @@
             "strength": 10
         },
         {
-            "name": "army at command",
-            "strength": 30
+            "name": "Elephant Corps",
+            "strength": 20
+        },
+        {
+            "name": "poison",
+            "strength": 20
         }
     ]
 }

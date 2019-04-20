@@ -3,30 +3,38 @@
     "tagLines": "What Is Dead May Never Die",
     "members": [
         {
-            "name": "Lord Reaper of Pyke.",
-            "strength": 70
+            "name": "Theon Greyjoy",
+            "strength": 40
+        },
+        {
+            "name": "Balon Greyjoy",
+            "strength": 60
         }
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "Swordsman",
             "strength": 10
         },
         {
-            "name": "spears",
+            "name": "Chariot Corps",
             "strength": 10
         },
         {
-            "name": "catapault",
+            "name": "Strike Corps",
             "strength": 10
+        },
+        {
+            "name": "Elephant Corps",
+            "strength": 20
         },
         {
             "name": "army at command",
             "strength": 20
         },
         {
-            "name": "ships",
-            "strength": 50
+            "name": "BattleShips",
+            "strength": 30
         }
     ]
 }

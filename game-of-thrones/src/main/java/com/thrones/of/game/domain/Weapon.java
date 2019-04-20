@@ -53,7 +53,7 @@ public class Weapon implements Cloneable, Serializable {
 
     @Override
     public String toString() {
-        return "\nWeapon = " + name + " - cost required (in strength units) = " + strength;
+        return "\n \t\t\t\t\t  Weapon = " + name + " - cost required (in strength units) = " + strength;
     }
 
     @Override

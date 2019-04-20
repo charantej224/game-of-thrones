@@ -13,24 +13,32 @@
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "infantry Corps",
+            "strength": 20
+        },
+        {
+            "name": "Auxiliary Forces",
+            "strength": 30
+        },
+        {
+            "name": "Chariot Corps",
             "strength": 10
         },
         {
-            "name": "spears",
-            "strength": 10
+            "name": "Elephant Corps",
+            "strength": 20
         },
         {
             "name": "catapault",
             "strength": 10
         },
         {
-            "name": "army at command",
+            "name": "Dothrakis",
             "strength": 20
         },
         {
             "name": "dragons",
-            "strength": 50
+            "strength": 40
         }
     ]
 }

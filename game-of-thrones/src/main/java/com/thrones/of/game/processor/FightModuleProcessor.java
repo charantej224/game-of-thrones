@@ -76,7 +76,7 @@ public class FightModuleProcessor {
             selected.setStrength(selected.getStrength() - playerWeapon.getStrength());
             enemy.setStrength(enemy.getStrength() - enemyWeapon.getStrength());
         } else if("MORE".equalsIgnoreCase(status)){
-            System.out.println(helpProperties.getProperty(YOUR_WEAPON_KILLED).replace("$$", playerWeapon.getName()).replace("**", enemyWeapon.getName()));
+            System.out.println(helpProperties.getProperty(ENEMY_WEAPON_KILLED).replace("$$", playerWeapon.getName()).replace("**", enemyWeapon.getName()));
             session.getEnemyWeapons().remove(enemyWeapon);
             Member selected = session.getSelected();
             Member enemy = session.getEnemy();

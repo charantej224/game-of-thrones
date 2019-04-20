@@ -11,6 +11,8 @@ import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
+import static com.thrones.of.game.config.CONSTANTS.GREEN;
+
 public class FileLoader {
 
     public static void loadFiles() throws IOException {
@@ -22,17 +24,17 @@ public class FileLoader {
         applicationConfiguration.setHelptextProperties(helpTextProperties);
         applicationConfiguration.setPatternProperties(patternProperties);
         int i = 1;
-        System.out.println("loading GOT house models.....");
+        System.out.println(GREEN + "\t\t\t\t\tloading GOT house models.....");
         while (null != ganeProperties.getProperty("house." + i)) {
             String house = ganeProperties.getProperty("house." + i);
-            System.out.println("loading house " + house + " ...");
+            System.out.println(GREEN + "\t\t\t\t\tloading house " + house + " ...");
             String houseContent = getResource(house + ".json", StandardCharsets.UTF_8.name());
             ObjectMapper objectMapper = new ObjectMapper();
             HousesModel housesModel = objectMapper.readValue(houseContent, HousesModel.class);
             applicationConfiguration.getHouseMap().put(house, housesModel);
             i++;
         }
-        System.out.println("loading GOT house models - Complete");
+        System.out.println(GREEN + "\t\t\t\t\tloading GOT house models - Complete");
     }
 
     public static Properties getResource(String fileName) throws IOException {

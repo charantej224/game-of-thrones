@@ -33,4 +33,11 @@ public class EntryProcessor {
         System.out.println(GREEN + helpProperties.getProperty(NAME_DEREGISTERED).replace("$$", name));
         session.clearSession();
     }
+
+    public void startNewGame(String name){
+        System.out.println(GREEN + helpProperties.getProperty(NEW_GAME).replace("$$", name));
+        PlayerProfile playerProfile = session.getPlayerProfile();
+        session.clearSession();
+        session.setPlayerProfile(playerProfile);
+    }
 }

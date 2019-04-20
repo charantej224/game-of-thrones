@@ -53,7 +53,7 @@ public class Member implements Cloneable, Serializable {
 
     @Override
     public String toString() {
-        return "\nCharacter = " + name + " - strength = " + strength;
+        return "\n \t\t\t\t\t Character = " + name + " - strength = " + strength;
     }
 
     @Override

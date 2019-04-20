@@ -21,11 +21,11 @@
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "tactical wisdom",
             "strength": 10
         },
         {
-            "name": "spears",
+            "name": "Chariot Corps",
             "strength": 10
         },
         {
@@ -33,8 +33,20 @@
             "strength": 10
         },
         {
+            "name": "Strike Corps",
+            "strength": 10
+        },
+        {
+            "name": "Elephant Corps",
+            "strength": 20
+        },
+        {
+            "name": "spears",
+            "strength": 10
+        },
+        {
             "name": "army at command",
-            "strength": 40
+            "strength": 30
         }
     ]
 }

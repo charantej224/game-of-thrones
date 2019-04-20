@@ -82,10 +82,10 @@ public class HousesModel implements Cloneable, Serializable {
     @Override
     public String toString() {
         return
-                "houseName=" + houseName + "\n" +
-                        "tagLines=" + tagLines + "\n" +
-                        "members=" + members + "\n" +
-                        "weapons=" + weapons;
+                "\t\t\t\t\t houseName=" + houseName + "\n" +
+                        "\t\t\t\t\t tagLines=" + tagLines + "\n" +
+                        "\t\t\t\t\t members=" + members + "\n" +
+                        "\t\t\t\t\t weapons=" + weapons;
     }
 
     @Override

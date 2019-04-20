@@ -13,24 +13,24 @@
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "Chariot Corps",
             "strength": 10
         },
         {
-            "name": "spears",
-            "strength": 10
-        },
-        {
-            "name": "catapault",
-            "strength": 10
-        },
-        {
-            "name": "army at command",
+            "name": "Elephant Corps",
             "strength": 20
         },
         {
+            "name": "Cavalry Corps",
+            "strength": 20
+        },
+        {
+            "name": "swords men",
+            "strength": 10
+        },
+        {
             "name": "poison",
-            "strength": 40
+            "strength": 30
         }
     ]
 }

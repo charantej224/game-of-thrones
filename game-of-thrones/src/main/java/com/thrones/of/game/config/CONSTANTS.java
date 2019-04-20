@@ -36,6 +36,8 @@ public class CONSTANTS {
     public static final String YOUR_WEAPON_KILLED = "YOUR_WEAPON_KILLED";
     public static final String ENEMY_WEAPON_KILLED = "ENEMY_WEAPON_KILLED";
     public static final String NO_STRENGTH = "NO_STRENGTH";
+    public static final String NEW_GAME = "NEW_GAME";
+
 
 
 

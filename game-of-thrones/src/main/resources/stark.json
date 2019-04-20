@@ -4,11 +4,11 @@
     "members": [
         {
             "name": "Arya Stark",
-            "strength": 60
+            "strength": 70
         },
         {
             "name": "John Snow",
-            "strength": 70
+            "strength": 80
         },
         {
             "name": "Sansa Stark",
@@ -17,11 +17,11 @@
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "wildlings",
             "strength": 10
         },
         {
-            "name": "spears",
+            "name": "freefolks",
             "strength": 10
         },
         {
@@ -29,12 +29,20 @@
             "strength": 10
         },
         {
+            "name": "Strike Corps",
+            "strength": 10
+        },
+        {
+            "name": "snowfall kills",
+            "strength": 10
+        },
+        {
             "name": "army at command",
             "strength": 20
         },
         {
-            "name": "magic",
-            "strength": 20
+            "name": "allies",
+            "strength": 30
         }
     ]
 }

@@ -3,21 +3,25 @@
     "tagLines": "Family, Duty, Honor",
     "members": [
         {
-            "name": "Lord Paramount of the Trident",
-            "strength": 70
+            "name": "Edmure Tully",
+            "strength": 40
+        },
+        {
+            "name": "Brynden Tully",
+            "strength": 30
         }
     ],
     "weapons": [
         {
-            "name": "swords",
-            "strength": 10
+            "name": "infantry Corps",
+            "strength": 20
         },
         {
-            "name": "spears",
-            "strength": 10
+            "name": "Auxiliary Forces",
+            "strength": 30
         },
         {
-            "name": "catapault",
+            "name": "Chariot Corps",
             "strength": 10
         },
         {

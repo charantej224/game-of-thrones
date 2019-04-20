@@ -3,34 +3,34 @@
     "tagLines": "As High as Honor",
     "members": [
         {
-            "name": "Viserys Targaryen",
+            "name": "Robert Arryn",
             "strength": 50
         },
         {
-            "name": "Daenerys Targaryen",
-            "strength": 90
+            "name": "Harrold Hardyng",
+            "strength": 50
         }
     ],
     "weapons": [
         {
-            "name": "swords",
+            "name": "Chariot Corps",
             "strength": 10
         },
         {
-            "name": "spears",
-            "strength": 10
-        },
-        {
-            "name": "catapault",
-            "strength": 10
-        },
-        {
-            "name": "army at command",
+            "name": "Elephant Corps",
             "strength": 20
         },
         {
-            "name": "dragons",
-            "strength": 50
+            "name": "Cavalry Corps",
+            "strength": 20
+        },
+        {
+            "name": "infantry Corps",
+            "strength": 20
+        },
+        {
+            "name": "Auxiliary Forces",
+            "strength": 30
         }
     ]
 }
