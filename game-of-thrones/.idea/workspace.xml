@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54fe05c6-173a-4ddd-9bca-8060dab3bb38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/helptext.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/helptext.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pattern.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pattern.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="353">
+              <caret line="96" column="100" selection-start-line="96" selection-start-column="100" selection-end-line="96" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -66,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pattern.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            <state relative-caret-position="368">
+              <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -163,10 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/helptext.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pattern.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/helptext.properties" />
       </list>
     </option>
   </component>
@@ -322,7 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555861900918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555862394787" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
@@ -386,7 +376,7 @@
     <frame x="34" y="89" width="1849" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27946874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27946874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +386,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871535" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32871535" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35516372" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35516372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -866,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -885,8 +868,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pattern.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        <state relative-caret-position="368">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="96" column="100" selection-start-line="96" selection-start-column="100" selection-end-line="96" selection-end-column="100" />
         </state>
       </provider>
     </entry>
