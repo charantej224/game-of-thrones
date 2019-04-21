@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import static com.thrones.of.game.config.Constants.*;
 
-public class HelpProcessor {
+public class GameExplorer {
 
     ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getApplicationConfiguration();
     Properties helpProperties = applicationConfiguration.getHelptextProperties();

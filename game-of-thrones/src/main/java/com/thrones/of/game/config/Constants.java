@@ -4,6 +4,7 @@ public class Constants {
 
     public static final String NAME_ALREADY_REGISTERED = "NAME_ALREADY_REGISTERED";
     public static final String ENTRY_WELCOME = "ENTRY_WELCOME";
+    public static final String HINT_ENTRY_WELCOME = "HINT_ENTRY_WELCOME";
     public static final String NAME_REGISTERED = "NAME_REGISTERED";
     public static final String NAME_DEREGISTERED = "NAME_DEREGISTERED";
     public static final String EXIT_MESSAGE = "EXIT_MESSAGE";
@@ -46,8 +47,13 @@ public class Constants {
     public static final String INTRO = "INTRO";
     public static final String NAME_INVALID = "NAME_INVALID";
     public static final String COMMAND_NOT_ALLOWED = "COMMAND_NOT_ALLOWED";
-    public static final String HINT_COMMAND_NOT_ALLOWED = "NAME_INVALID";
-
+    public static final String HINT_COMMAND_NOT_ALLOWED = "HINT_COMMAND_NOT_ALLOWED";
+    public static final String COMMAND = "COMMAND";
+    public static final String PATTERN = "pattern";
+    public static final String WELCOME_BACK = "WELCOME_BACK";
+    public static final String USE_COMMANDS = "USE_COMMANDS";
+    public static final String BLANK_LINE = "BLANK_LINE";
+    public static final String YOUR_COMMAND = "YOUR_COMMAND";
 
 
     public static final Integer MAX_POINTS = 100;
