@@ -5,7 +5,7 @@ import java.io.Serializable;
 import static com.thrones.of.game.config.Constants.MAX_POINTS;
 import static com.thrones.of.game.config.Constants.MIN_POINTS;
 
-public class PlayerProfile implements Serializable {
+public class PlayerProfile implements Serializable, Cloneable {
 
     private String playerName;
     private Integer wins = 0;
@@ -78,5 +78,14 @@ public class PlayerProfile implements Serializable {
 
     public void setTies(Integer ties) {
         this.ties = ties;
+    }
+
+    @Override
+    public PlayerProfile clone() {
+        try {
+            return (PlayerProfile) super.clone();
+        } catch (CloneNotSupportedException cloneException) {
+            throw new RuntimeException(cloneException.getMessage());
+        }
     }
 }

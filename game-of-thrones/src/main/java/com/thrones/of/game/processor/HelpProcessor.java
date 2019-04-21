@@ -43,7 +43,7 @@ public class HelpProcessor {
             System.out.println(BLUE + helpProperties.getProperty(SESSION_INFO).replace("$$", session.getPlayerProfile().getPlayerName()));
             System.out.println(BLUE + helpProperties.getProperty(HOUSE_INFO).replace("$$", session.getSelectedHouse().getHouseName()).replace("**", session.getSelectedHouse().getTagLines()));
             System.out.println(BLUE + helpProperties.getProperty(MEMBER_INFO).replace("$$", session.getSelected().getName()));
-            System.out.println(BLUE + helpProperties.getProperty(ENEMY_HOUSE_INFO).replace("$$", session.getEnemyHouse().getHouseName()).replace("**", session.getSelectedHouse().getTagLines()));
+            System.out.println(BLUE + helpProperties.getProperty(ENEMY_HOUSE_INFO).replace("$$", session.getEnemyHouse().getHouseName()).replace("**", session.getEnemyHouse().getTagLines()));
             System.out.println(BLUE + helpProperties.getProperty(ENEMY_INFO).replace("$$", session.getEnemy().getName()));
         } else {
             System.out.println(BLUE + helpProperties.getProperty(SESSION_NOT_READY));

@@ -1,6 +1,7 @@
 package com.thrones.of.game;
 
 import com.thrones.of.game.resolver.QueryResolver;
+import com.thrones.of.game.utils.MessagePrinter;
 
 import java.util.Scanner;
 
@@ -18,6 +19,7 @@ public class GameLauncher {
     }
 
     public void launchGame() throws Exception {
+        init();
         boolean isGameRunning = true;
         Scanner in = new Scanner(System.in);
         while (isGameRunning) {
@@ -26,5 +28,9 @@ public class GameLauncher {
             QueryResolver queryResolver = new QueryResolver();
             queryResolver.resolveQuery(s);
         }
+    }
+
+    private void init() {
+        (new MessagePrinter()).printStartupMessages();
     }
 }

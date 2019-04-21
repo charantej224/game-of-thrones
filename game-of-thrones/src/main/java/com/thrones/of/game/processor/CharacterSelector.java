@@ -22,37 +22,37 @@ public class CharacterSelector {
         Optional<HousesModel> optionalHouse = selectHouse(name);
         if (optionalHouse.isPresent()) {
             HousesModel house = optionalHouse.get();
-            System.out.println(helpProperties.getProperty(HOUSE_SELECTED).replace("$$", house.getHouseName()));
-            System.out.println(helpProperties.getProperty(HOUSE_TAG).replace("$$", house.getTagLines()));
-            System.out.println(helpProperties.getProperty(CHOOSE_MEMBERS).replace("$$", house.getMembers().toString()));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_SELECTED).replace("$$", house.getHouseName()));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_TAG).replace("$$", house.getTagLines()));
+            System.out.println(CYAN + helpProperties.getProperty(CHOOSE_MEMBERS).replace("$$", house.getMembers().toString()));
             HousesModel selectedHouse = house.clone();
             session.setSelectedHouse(selectedHouse);
             session.setSelectedWeapons(selectedHouse.getWeapons());
         } else {
-            System.out.println(helpProperties.getProperty(HOUSE_NOT_FOUND));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_NOT_FOUND));
         }
     }
 
     public void selectEnemyCharacterHouse(String name) {
         if (session.getSelectedHouse() == null) {
-            System.out.println(helpProperties.getProperty(HOUSE_NOT_SELECTED));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_NOT_SELECTED));
             return;
         } else if (session.getSelectedHouse().getHouseName().toLowerCase().contains(name) ||
                 name.contains(session.getSelectedHouse().getHouseName().toLowerCase())) {
-            System.out.println(helpProperties.getProperty(ENEMY_SELECTED_SAMEHOUSE));
+            System.out.println(CYAN + helpProperties.getProperty(ENEMY_SELECTED_SAMEHOUSE));
             return;
         }
         Optional<HousesModel> optionalHouse = selectHouse(name);
         if (optionalHouse.isPresent()) {
             HousesModel house = optionalHouse.get();
-            System.out.println(helpProperties.getProperty(ENEMY_HOUSE_SELECTED).replace("$$", house.getHouseName()));
-            System.out.println(helpProperties.getProperty(HOUSE_TAG).replace("$$", house.getTagLines()));
-            System.out.println(helpProperties.getProperty(CHOOSE_MEMBERS).replace("$$", house.getMembers().toString()));
+            System.out.println(CYAN + helpProperties.getProperty(ENEMY_HOUSE_SELECTED).replace("$$", house.getHouseName()));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_TAG).replace("$$", house.getTagLines()));
+            System.out.println(CYAN + helpProperties.getProperty(CHOOSE_MEMBERS).replace("$$", house.getMembers().toString()));
             HousesModel enemyHouse = house.clone();
             session.setEnemyHouse(enemyHouse);
             session.setEnemyWeapons(enemyHouse.getWeapons());
         } else {
-            System.out.println(helpProperties.getProperty(HOUSE_NOT_FOUND));
+            System.out.println(CYAN + helpProperties.getProperty(HOUSE_NOT_FOUND));
         }
     }
 
@@ -64,10 +64,10 @@ public class CharacterSelector {
                                         name.contains(member.getName().toLowerCase()))
                         .findFirst();
         if(optionalMember.isPresent()){
-            System.out.println(helpProperties.getProperty(ENEMY_SELECTED).replace("$$", optionalMember.get().getName()));
+            System.out.println(CYAN + helpProperties.getProperty(ENEMY_SELECTED).replace("$$", optionalMember.get().getName()));
             session.setEnemy(optionalMember.get().clone());
         } else {
-            System.out.println(helpProperties.getProperty(NO_MEMBER));
+            System.out.println(CYAN + helpProperties.getProperty(NO_MEMBER));
 
         }
     }
@@ -80,10 +80,10 @@ public class CharacterSelector {
                                         name.contains(member.getName().toLowerCase()))
                         .findFirst();
         if(optionalMember.isPresent()){
-            System.out.println(helpProperties.getProperty(MEMBER_SELECTED).replace("$$", optionalMember.get().getName()));
+            System.out.println(CYAN + helpProperties.getProperty(MEMBER_SELECTED).replace("$$", optionalMember.get().getName()));
             session.setSelected(optionalMember.get().clone());
         } else {
-            System.out.println(helpProperties.getProperty(NO_MEMBER));
+            System.out.println(CYAN + helpProperties.getProperty(NO_MEMBER));
 
         }
     }

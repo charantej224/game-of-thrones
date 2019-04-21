@@ -15,7 +15,8 @@ public class Session implements Serializable {
     private List<Weapon> enemyWeapons;
     private HousesModel selectedHouse;
     private HousesModel enemyHouse;
-    private Boolean isCurrentGameOver = Boolean.FALSE;
+    private Boolean isCurrentGameOver;
+    private Integer currentStage = 10;
 
     private static Session session;
 
@@ -103,5 +104,13 @@ public class Session implements Serializable {
 
     public void setCurrentGameOver(Boolean currentGameOver) {
         isCurrentGameOver = currentGameOver;
+    }
+
+    public Integer getCurrentStage() {
+        return currentStage;
+    }
+
+    public void setCurrentStage(Integer currentStage) {
+        this.currentStage = currentStage;
     }
 }

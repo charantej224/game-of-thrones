@@ -41,6 +41,13 @@ public class Constants {
     public static final String TRAIN_ME1 = "TRAIN_ME1";
     public static final String STENGTH_BOOST = "STENGTH_BOOST";
     public static final String LOST_GAME_NO_WEAPON_ELIGIBLE = "LOST_GAME_NO_WEAPON_ELIGIBLE";
+    public static final String NO_FIGHT_GAME_OVER = "NO_FIGHT_GAME_OVER";
+    public static final String HINT_NO_FIGHT_GAME_OVER = "HINT_NO_FIGHT_GAME_OVER";
+    public static final String INTRO = "INTRO";
+    public static final String NAME_INVALID = "NAME_INVALID";
+    public static final String COMMAND_NOT_ALLOWED = "COMMAND_NOT_ALLOWED";
+    public static final String HINT_COMMAND_NOT_ALLOWED = "NAME_INVALID";
+
 
 
     public static final Integer MAX_POINTS = 100;

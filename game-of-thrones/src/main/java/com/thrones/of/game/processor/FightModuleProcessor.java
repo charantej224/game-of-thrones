@@ -23,7 +23,12 @@ public class FightModuleProcessor {
             session.setCurrentGameOver(Boolean.FALSE);
         }
 
-        if (gameValidator.isSelectedUserHavingWeapons()) {
+        if (session.getCurrentGameOver()) {
+            System.out.println(helpProperties.getProperty(NO_FIGHT_GAME_OVER));
+            System.out.println(helpProperties.getProperty(HINT_NO_FIGHT_GAME_OVER));
+        }
+
+        if (!gameValidator.isSelectedUserHavingWeapons()) {
             System.out.println(helpProperties.getProperty(LOST_GAME_NO_WEAPON_ELIGIBLE));
             session.getPlayerProfile().updateLostGames();
         }
@@ -33,7 +38,7 @@ public class FightModuleProcessor {
                         weapon.getName().toLowerCase().contains(name)).findFirst();
 
         if (weaponOptional.isPresent()) {
-            if (weaponOptional.get().getStrength() > session.getSelected().getStrength()) {
+            if (!gameValidator.canUserFightWithWeapon(session.getSelected(), weaponOptional.get())) {
                 System.out.println(helpProperties.getProperty(NO_STRENGTH));
                 return;
             }
@@ -121,6 +126,7 @@ public class FightModuleProcessor {
         if (!gameValidator.canUserFightWithWeapon(session.getEnemy(), selectedWeapon)) {
             System.out.println(helpProperties.getProperty(ENEMY_NO_WEAPONS_LOST));
             session.getPlayerProfile().updateWins();
+            session.setCurrentGameOver(Boolean.TRUE);
             return Boolean.FALSE;
         }
         return Boolean.TRUE;
