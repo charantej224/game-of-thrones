@@ -3,6 +3,7 @@ package com.thrones.of.game.resolver;
 import com.thrones.of.game.Validator.GameValidator;
 import com.thrones.of.game.config.ApplicationConfiguration;
 import com.thrones.of.game.domain.Session;
+import com.thrones.of.game.processor.CommandHelper;
 
 import java.lang.reflect.Method;
 import java.util.Properties;
@@ -41,10 +42,14 @@ public class QueryResolver {
     }
 
     private void setSessionStage(String exitStage) {
+        CommandHelper commandHelper = new CommandHelper();
         if ("0".equalsIgnoreCase(exitStage))
             return;
-        if (Session.getInstance() != null) {
+        if (Session.getInstance() != null && Session.getInstance().getUpdateStagePostCommand()) {
             Session.getInstance().setCurrentStage(Integer.parseInt(exitStage));
+            commandHelper.canUseCommands(false);
         }
+        if(!Session.getInstance().getUpdateStagePostCommand())
+            Session.getInstance().setUpdateStagePostCommand(Boolean.TRUE);
     }
 }

@@ -17,6 +17,7 @@ public class Session implements Serializable {
     private HousesModel enemyHouse;
     private Boolean isCurrentGameOver;
     private Integer currentStage = 10;
+    private Boolean updateStagePostCommand = Boolean.TRUE;
 
     private static Session session;
 
@@ -36,6 +37,14 @@ public class Session implements Serializable {
             return session = new Session();
         else
             return session;
+    }
+
+    public Boolean getUpdateStagePostCommand() {
+        return updateStagePostCommand;
+    }
+
+    public void setUpdateStagePostCommand(Boolean updateStagePostCommand) {
+        this.updateStagePostCommand = updateStagePostCommand;
     }
 
     public void clearSession() {

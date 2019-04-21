@@ -45,17 +45,18 @@ public class GameValidator {
         return true;
     }
 
-    public boolean validatePlayerLevel(String input) {
+    public boolean
+    validatePlayerLevel(String input) {
         String entryLevelStr = patternProperties.getProperty(input + "_entry_level");
         Integer entryLevel = Integer.valueOf(entryLevelStr);
-        if (entryLevel == 0 || entryLevel == session.getCurrentStage())
+        if (entryLevel == 0 || entryLevel.intValue() == session.getCurrentStage().intValue())
             return true;
         else {
             System.out.println(BLUE_BOLD_BRIGHT + helpProperties.getProperty(COMMAND_NOT_ALLOWED));
             int i = 1;
             String commands = "";
             while (null != patternProperties.getProperty("pattern" + i)) {
-                if (session.getCurrentStage() == Integer.parseInt(patternProperties.getProperty("pattern" + i + "_entry_level"))) {
+                if (session.getCurrentStage().intValue() == Integer.parseInt(patternProperties.getProperty("pattern" + i + "_entry_level"))) {
                     commands = commands + " - " + patternProperties.getProperty("pattern" + i);
                 }
                 i++;
@@ -70,11 +71,10 @@ public class GameValidator {
     public void checkIfRegisteredUser() {
         if(session.getPlayerProfile() == null){
             System.out.println(CYAN + helpProperties.getProperty(ENTRY_WELCOME));
-            System.out.println(CYAN + helpProperties.getProperty(ENTRY_WELCOME));
         } else {
             CommandHelper commandHelper = new CommandHelper();
             System.out.println(CYAN + helpProperties.getProperty(WELCOME_BACK).replace("$$",session.getPlayerProfile().getPlayerName()));
-            commandHelper.canUseCommands();
+            commandHelper.canUseCommands(true);
         }
     }
 }

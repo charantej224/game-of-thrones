@@ -26,6 +26,7 @@ public class FightModuleProcessor {
         if (session.getCurrentGameOver()) {
             System.out.println(helpProperties.getProperty(NO_FIGHT_GAME_OVER));
             System.out.println(helpProperties.getProperty(HINT_NO_FIGHT_GAME_OVER));
+            return;
         }
 
         if (!gameValidator.isSelectedUserHavingWeapons()) {

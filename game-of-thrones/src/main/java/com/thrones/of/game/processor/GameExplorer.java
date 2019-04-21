@@ -53,6 +53,14 @@ public class GameExplorer {
     public void getmyWeapons(String input) {
         System.out.println(BLUE + helpProperties.getProperty(PLAYER_STRENGTH).replace("$$", session.getSelected().getStrength().toString()));
         System.out.println(BLUE + helpProperties.getProperty(PLAYER_WEAPONS).replace("$$", session.getSelectedWeapons().toString()));
+    }
 
+    public void playerProfile(String name) {
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_NAME).replace("$$", session.getPlayerProfile().getPlayerName()));
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_LEVEL).replace("$$", session.getPlayerProfile().getPlayerLevel()));
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_POINTS).replace("$$", session.getPlayerProfile().getPlayerPoints().toString()));
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_WINS).replace("$$", session.getPlayerProfile().getWins().toString()));
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_LOST).replace("$$", session.getPlayerProfile().getLost().toString()));
+        System.out.println(BLUE + helpProperties.getProperty(PLAYER_TIES).replace("$$", session.getPlayerProfile().getTies().toString()));
     }
 }

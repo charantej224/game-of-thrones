@@ -52,9 +52,16 @@ public class Constants {
     public static final String PATTERN = "pattern";
     public static final String WELCOME_BACK = "WELCOME_BACK";
     public static final String USE_COMMANDS = "USE_COMMANDS";
+    public static final String NON_GAME_COMMANDS = "NON_GAME_COMMANDS";
     public static final String BLANK_LINE = "BLANK_LINE";
     public static final String YOUR_COMMAND = "YOUR_COMMAND";
-
+    public static final String RECOMMEND_COMMANDS = "RECOMMEND_COMMANDS";
+    public static final String PLAYER_WINS = "PLAYER_WINS";
+    public static final String PLAYER_LOST = "PLAYER_LOST";
+    public static final String PLAYER_TIES = "PLAYER_TIES";
+    public static final String PLAYER_NAME = "PLAYER_NAME";
+    public static final String PLAYER_LEVEL = "PLAYER_LEVEL";
+    public static final String PLAYER_POINTS = "PLAYER_POINTS";
 
     public static final Integer MAX_POINTS = 100;
     public static final Integer MIN_POINTS = 0;

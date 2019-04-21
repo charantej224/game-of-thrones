@@ -16,10 +16,6 @@ public class EntryProcessor {
     private Properties helpProperties = applicationConfiguration.getHelptextProperties();
     private Session session = Session.getInstance();
 
-    public void welcomePlayer(String action) {
-        System.out.println(GREEN + helpProperties.getProperty(ENTRY_WELCOME));
-    }
-
     public void registerPlayer(String name) {
         if (!validator.validateRegistry(name))
             return;
