@@ -98,5 +98,9 @@ explore house <full or partial name>
 Note: if the command is not understood, then application will ask to train the application to recognize the command
 
 
+Assumptions:
+1. No Frameworks to be used.
+2. No database support.
+3. command line based input.
 
 
