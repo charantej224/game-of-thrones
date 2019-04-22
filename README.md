@@ -16,8 +16,8 @@ Building packages
 -----------------------------------------------------------------------
 command
 ```
-mvn clean package
-java -jar target/game_of_thrones.jar
+1. mvn clean package
+2. java -jar target/game_of_thrones.jar
 ```
 Note: Best recommended with IntelliJ IDE.
 
@@ -32,6 +32,14 @@ register <Name>
 if you wish to de-register your self.
 ```
 remove <Name which you entered already>
+```
+Before you choose your house, if you wish to understand houses available. Explore available houses using below command.
+```
+explore house all
+```
+Given the above command gives breif information about the house, if you wish to know the characters available within the house. you need to explore a specific house.
+```
+explore house <full or partial name>
 ```
 once you are registered, you should select the house with which you want to battle the enemy.
 ```
@@ -98,5 +106,9 @@ explore house <full or partial name>
 Note: if the command is not understood, then application will ask to train the application to recognize the command
 
 
+Assumptions:
+1. No Frameworks to be used.
+2. No database support.
+3. command line based input.
 
 
