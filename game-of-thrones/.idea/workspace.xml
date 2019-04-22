@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54fe05c6-173a-4ddd-9bca-8060dab3bb38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/HousesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/HousesModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/ExitProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/ExitProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-of-thrones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/game-of-thrones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/timers/StrengthBooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/timers/StrengthBooster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/helptext.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/helptext.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,46 +27,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="334">
+              <caret line="84" column="76" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/timers/StrengthBooster.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/FightModuleProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
+            <state relative-caret-position="-2217">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -85,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="620">
               <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,25 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/utils/MessagePrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="93" column="86" selection-start-line="93" selection-start-column="86" selection-end-line="93" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -143,6 +90,23 @@
       <find>battl</find>
       <find>start</find>
       <find>regis</find>
+      <find>ENEMY_SELECTED</find>
+      <find>well</find>
+      <find>ENEMY_WEAPON_KILLED</find>
+      <find>YOU_LOSE</find>
+      <find>USE_COMMANDS</find>
+      <find>RECOMMEND_COMMANDS</find>
+      <find>SESSION_NOT_READY</find>
+      <find>NEW_GAME_NOT_ALLOWED</find>
+      <find>house_not</find>
+      <find>NO_MEMBER</find>
+      <find>SAME</find>
+      <find>cannotf</find>
+      <find>LOST_GAME_NO_WEAPON_ELIGIBLE</find>
+      <find>NO_STRENGTH</find>
+      <find>NO_WEAPON_FOUND</find>
+      <find>ENEMY_NO_WEAPONS_LOST</find>
+      <find>YOU_NO_WEAPONS_LOST</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,14 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ApplicationConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Stark.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Targaryen.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Arryn.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Lannister.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Tully.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/Greyjoy.json" />
         <option value="$PROJECT_DIR$/src/main/resources/Baratheon.json" />
         <option value="$PROJECT_DIR$/src/main/resources/Tyrell.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/Processor.java" />
@@ -179,8 +135,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/LogPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/HelpProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerLevel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/helptext.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pattern.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameLauncher.java" />
@@ -194,14 +148,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/ExitProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/timers/StrengthBooster.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CommandHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/EntryProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/GameExplorerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/helptext.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CharacterSelectorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/FightModuleProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/utils/InputOutputHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thrones/of/game/utils/MessagePrinterTest.java" />
       </list>
     </option>
   </component>
@@ -276,7 +240,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
@@ -285,22 +249,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game-of-thrones" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game-of-thrones" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="timers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +288,16 @@
             </path>
             <path>
               <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="game-of-thrones" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game-of-thrones" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game-of-thrones" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +306,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555919786441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555942228534" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
@@ -374,25 +331,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.GameApplication" />
+  <component name="RunManager" selected="JUnit.MessagePrinterTest.testPrintStartupMessages">
+    <configuration name="FightModuleProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="game-of-thrones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thrones.of.game.*" />
+          <option name="PATTERN" value="com.thrones.of.game.processor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thrones.of.game.processor" />
+      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.processor.FightModuleProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputOutputHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game-of-thrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thrones.of.game.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thrones.of.game.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.utils.InputOutputHelperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputOutputHelperTest.test1_testWriteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game-of-thrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thrones.of.game.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thrones.of.game.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.utils.InputOutputHelperTest" />
+      <option name="METHOD_NAME" value="test1_testWriteFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputOutputHelperTest.testReadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game-of-thrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thrones.of.game.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thrones.of.game.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.utils.InputOutputHelperTest" />
+      <option name="METHOD_NAME" value="testReadFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagePrinterTest.testPrintStartupMessages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game-of-thrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thrones.of.game.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thrones.of.game.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.thrones.of.game.utils.MessagePrinterTest" />
+      <option name="METHOD_NAME" value="testPrintStartupMessages" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameApplication" />
+        <item itemvalue="JUnit.MessagePrinterTest.testPrintStartupMessages" />
+        <item itemvalue="JUnit.InputOutputHelperTest" />
+        <item itemvalue="JUnit.InputOutputHelperTest.testReadFile" />
+        <item itemvalue="JUnit.InputOutputHelperTest.test1_testWriteFile" />
+        <item itemvalue="JUnit.FightModuleProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -409,11 +433,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FightModuleProcessorTest - 2019.04.22 at 18h 56m 17s.xml">
+      <configuration name="FightModuleProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightModuleProcessorTest - 2019.04.22 at 18h 57m 28s.xml">
+      <configuration name="FightModuleProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightModuleProcessorTest_test10_testFightEnemy_noStrengthLeft - 2019.04.22 at 18h 57m 44s.xml">
+      <configuration name="FightModuleProcessorTest.test10_testFightEnemy_noStrengthLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightModuleProcessorTest_test10_testFightEnemy_noStrengthLeft - 2019.04.22 at 18h 58m 29s.xml">
+      <configuration name="FightModuleProcessorTest.test10_testFightEnemy_noStrengthLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightModuleProcessorTest - 2019.04.22 at 18h 58m 35s.xml">
+      <configuration name="FightModuleProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FightModuleProcessorTest - 2019.04.22 at 18h 59m 21s.xml">
+      <configuration name="FightModuleProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputOutputHelperTest_test1_testWriteFile - 2019.04.22 at 19h 18m 21s.xml">
+      <configuration name="InputOutputHelperTest.test1_testWriteFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputOutputHelperTest_testReadFile - 2019.04.22 at 19h 20m 31s.xml">
+      <configuration name="InputOutputHelperTest.testReadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputOutputHelperTest - 2019.04.22 at 19h 21m 19s.xml">
+      <configuration name="InputOutputHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessagePrinterTest_testPrintStartupMessages - 2019.04.22 at 19h 40m 01s.xml">
+      <configuration name="MessagePrinterTest.testPrintStartupMessages" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="34" y="89" width="1849" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27946874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27946874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,7 +478,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871535" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32871535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35516372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,16 +488,16 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32871535" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32871535" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32982844" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Code Iris" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32982844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Code Iris" order="9" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -461,21 +517,57 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java</url>
-          <line>41</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java</url>
-          <line>45</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java</url>
-          <line>55</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/EntryProcessorTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/EntryProcessorTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CommandHelperTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CommandHelperTest.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CharacterSelectorTest.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/FightModuleProcessorTest.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -483,72 +575,53 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>session.getEnemy()</expression-string>
+        <expression-string>outContent.toString()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>session.getEnemyWeapons()</expression-string>
+        <expression-string>outContent.toString().contains(&quot;REGISTER&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>session.getCurrentGameOver()</expression-string>
+        <expression-string>Session.getInstance()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>patternProperties.getProperty(&quot;pattern&quot; + i).toLowerCase().contains(inputQuery)</expression-string>
+        <expression-string>Session.getInstance().getPlayerProfile()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inputQuery.contains(patternProperties.getProperty(&quot;pattern&quot; + i).toLowerCase()</expression-string>
+        <expression-string>file.delete()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>entryLevel == session.getCurrentStage()</expression-string>
+        <expression-string>file.getAbsoluteFile()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>entryLevel.compareTo(session.getCurrentStage())</expression-string>
+        <expression-string>file.filePath()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>entryLevel</expression-string>
+        <expression-string>file.filePath</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>session.getCurrentStage()</expression-string>
+        <expression-string>session.getPlayerProfile()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/App.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="652" column="24" selection-start-line="652" selection-start-column="24" selection-end-line="652" selection-end-column="24" />
-          <folding>
-            <element signature="e#26078#26079#0" expanded="true" />
-            <element signature="e#26105#26106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -573,20 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/arryn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/baratheon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/greyjoy.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -601,24 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stark.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tully.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/targaryen.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -650,27 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="64" column="77" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pattern.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/game.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -678,66 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerLevel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,56 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="76" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="68" selection-start-line="119" selection-start-column="68" selection-end-line="119" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/ExitProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="116" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="80" column="132" selection-start-line="80" selection-start-column="132" selection-end-line="80" selection-end-column="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/resolver/QueryResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -909,37 +827,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="47" column="90" selection-start-line="47" selection-start-column="90" selection-end-line="47" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/ExitProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <caret line="23" column="116" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="165" column="32" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
+        <state relative-caret-position="203">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -948,11 +849,257 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/Validator/GameValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="93" column="86" selection-start-line="93" selection-start-column="86" selection-end-line="93" selection-end-column="86" />
+        <state relative-caret-position="155">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/GameApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1005" column="16" selection-start-line="1005" selection-start-column="16" selection-end-line="1005" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16898">
+          <caret line="1035" column="32" selection-start-line="1035" selection-start-column="21" selection-end-line="1035" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/arryn.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pattern.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/baratheon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/domain/PlayerProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-of-thrones.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/targaryen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CommandHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CommandHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="69" column="77" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/GameExplorer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/EntryProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/EntryProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="65" column="86" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/GameExplorerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/CharacterSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/CharacterSelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="125" column="116" selection-start-line="125" selection-start-column="116" selection-end-line="125" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stark.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/processor/FightModuleProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/config/ApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/FileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/InputOutputHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="62" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thrones/of/game/utils/MessagePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/utils/InputOutputHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/processor/FightModuleProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2217">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/helptext.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="84" column="76" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thrones/of/game/utils/MessagePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
         </state>
       </provider>
     </entry>

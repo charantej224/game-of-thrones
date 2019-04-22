@@ -16,9 +16,9 @@ import static com.thrones.of.game.config.Constants.*;
  */
 public class GameExplorer {
 
-    ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getInstance();
-    Properties helpProperties = applicationConfiguration.getHelptextProperties();
-    Session session = Session.getInstance();
+    private ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getInstance();
+    private Properties helpProperties = applicationConfiguration.getHelptextProperties();
+    private Session session = Session.getInstance();
 
     /**
      * Method : exploreHouse
@@ -41,7 +41,7 @@ public class GameExplorer {
             if (optional.isPresent()) {
                 System.out.println(BLUE + optional.get().getValue().toString());
             } else {
-                System.out.println(BLUE + "No such house present, my load. Please try again");
+                System.out.println(BLUE + helpProperties.getProperty(NO_SUCH_HOUSE));
             }
         }
     }

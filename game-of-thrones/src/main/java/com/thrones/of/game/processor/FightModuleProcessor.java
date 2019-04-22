@@ -18,9 +18,8 @@ import static com.thrones.of.game.config.Constants.*;
  */
 public class FightModuleProcessor {
 
-    GameValidator gameValidator;
-    Session session = Session.getInstance();
-    Properties helpProperties = ApplicationConfiguration.getInstance().getHelptextProperties();
+    private Session session = Session.getInstance();
+    private Properties helpProperties = ApplicationConfiguration.getInstance().getHelptextProperties();
 
     /**
      * Method : fightEnemy
@@ -29,10 +28,9 @@ public class FightModuleProcessor {
      * player can ask to fight with a specific weapon and this class intelligently decides of what weapon
      * can fight with to counter the player's weapon.
      * it also makes validation on the strength of the weapon and the character's left over strength.
-     *
      */
     public void fightEnemy(String name) {
-        gameValidator = new GameValidator();
+        GameValidator gameValidator = new GameValidator();
         if (session.getCurrentGameOver() == null) {
             session.setCurrentGameOver(Boolean.FALSE);
         }
@@ -138,7 +136,7 @@ public class FightModuleProcessor {
      */
     public void checkGameStatus() {
         if (session.getEnemyWeapons().isEmpty() && session.getSelectedWeapons().isEmpty()) {
-            if (session.getSelected().getStrength() < session.getEnemy().getStrength()) {
+            if (session.getSelected().getStrength() > session.getEnemy().getStrength()) {
                 System.out.println(helpProperties.getProperty(YOU_WIN));
                 session.getPlayerProfile().updateWins();
                 session.setCurrentGameOver(Boolean.TRUE);
@@ -169,6 +167,7 @@ public class FightModuleProcessor {
      * after choosing the weapon it helps to see if choosen weapon is good enough to fight by enemy.
      */
     public Boolean precheckSelectedWeapon(Weapon selectedWeapon) {
+        GameValidator gameValidator = new GameValidator();
         if (!gameValidator.canUserFightWithWeapon(session.getEnemy(), selectedWeapon)) {
             System.out.println(helpProperties.getProperty(ENEMY_NO_WEAPONS_LOST));
             session.getPlayerProfile().updateWins();

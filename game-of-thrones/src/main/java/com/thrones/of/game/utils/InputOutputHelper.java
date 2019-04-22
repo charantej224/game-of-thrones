@@ -2,6 +2,8 @@ package com.thrones.of.game.utils;
 
 import java.io.*;
 
+import static com.thrones.of.game.config.Constants.RED;
+
 /**
  * Class : InputOutputHelper
  * @param <T>
@@ -25,12 +27,10 @@ public class InputOutputHelper<T> {
             objectInputStream = new ObjectInputStream(fileInputStream);
             T readObject = (T) objectInputStream.readObject();
             return readObject;
-        } catch (FileNotFoundException e) {
-            System.out.println("Cache File not present, create new");
+        } catch (FileNotFoundException | ClassNotFoundException e) {
+            System.out.println("No Session persisted");
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            System.out.println(RED + "ALERT" + e.getMessage());
         } finally {
             if (objectInputStream != null)
                 objectInputStream.close();
