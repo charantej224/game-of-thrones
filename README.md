@@ -19,6 +19,7 @@ command
 mvn clean package
 java -jar target/game_of_thrones.jar
 ```
+Note: Best recommended with IntelliJ IDE.
 
 ## Game Overview
 
