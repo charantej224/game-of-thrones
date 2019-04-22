@@ -11,13 +11,27 @@ import java.util.Properties;
 
 import static com.thrones.of.game.config.Constants.*;
 
+/**
+ * Class : QueryResolver
+ * this class is the one which helps with pattern matches and then picks the right type of processor based on the
+ * commands executed in the console. it also validate if the user is at the right state in the context of game to execute
+ * a particular command.
+ */
 public class QueryResolver {
 
+    /**
+     * Method : resolveQuery
+     * @param inputQuery
+     * it loops around the pattern properties to identify the pattern of the command and then execute
+     * right processor methods by using reflection patterns.
+     * it also validate if user can execute command in the context of game.
+     * if the command is not understood then it will request you to train the game.
+     */
     public void resolveQuery(String inputQuery) {
         try {
             String className = null;
             inputQuery = inputQuery.toLowerCase();
-            ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getApplicationConfiguration();
+            ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getInstance();
             Properties patternProperties = applicationConfiguration.getPatternProperties();
             GameValidator gameValidator = new GameValidator();
             int i = 1;
@@ -47,6 +61,13 @@ public class QueryResolver {
 
     }
 
+    /**
+     * Method : setSessionStage
+     * @param exitStage
+     * This method is executed by the resolveQuery method to help to set the exit level when a particular command
+     * is executed.
+     * 
+     */
     private void setSessionStage(String exitStage) {
         CommandHelper commandHelper = new CommandHelper();
         if ("0".equalsIgnoreCase(exitStage))

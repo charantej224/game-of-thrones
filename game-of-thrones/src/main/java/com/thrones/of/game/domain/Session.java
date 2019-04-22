@@ -6,6 +6,14 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Name : Session
+ * implements: Cloneable
+ * Model required to deep clone to create an instance in the running session.
+ * implements: Serializable
+ * Model required to be written into file, hence, serialization is required.
+ * Holds the player profile throughout.
+ */
 public class Session implements Serializable {
 
     private PlayerProfile playerProfile;
@@ -24,6 +32,11 @@ public class Session implements Serializable {
     private Session() {
     }
 
+    /**
+     * Method name:  getInstance
+     * @return session object
+     * this also loads the session object that's persisted to disk.
+     */
     public static Session getInstance() {
         if(session != null)
             return session;

@@ -9,11 +9,23 @@ import java.util.TimerTask;
 import static com.thrones.of.game.config.Constants.STENGTH_BOOST;
 import static com.thrones.of.game.config.Constants.YELLOW;
 
+/**
+ * Class : StrengthBooster
+ * this an implementation of timertask which runs as a scheduled task
+ * to boost the strength of the player and enemy as well. after getting exhausted post fight.
+ */
 public class StrengthBooster extends TimerTask {
 
+    /**
+     * Method : run
+     * This is an implementation to boost strength of player and opponents.
+     * it increases by 10 points.
+     * However, it starts boosting only when fight has actually started. without fight starting
+     * it cannot boost the strength as designed.
+     */
     @Override
     public void run() {
-        ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getApplicationConfiguration();
+        ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getInstance();
         Properties helpText = applicationConfiguration.getHelptextProperties();
         Session session = Session.getInstance();
         System.out.println("Strength booster kick started");

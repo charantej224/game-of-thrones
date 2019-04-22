@@ -11,12 +11,26 @@ import java.util.Properties;
 
 import static com.thrones.of.game.config.Constants.*;
 
+/**
+ * Class : FightModuleProcessor
+ * this is crucial part of the game to helps player fight with enemy.
+ * it makes best possible decisions againt the context of game.
+ */
 public class FightModuleProcessor {
 
     GameValidator gameValidator;
     Session session = Session.getInstance();
-    Properties helpProperties = ApplicationConfiguration.getApplicationConfiguration().getHelptextProperties();
+    Properties helpProperties = ApplicationConfiguration.getInstance().getHelptextProperties();
 
+    /**
+     * Method : fightEnemy
+     * @param name
+     * this methods gets executed based on the command issued by player on the command line.
+     * player can ask to fight with a specific weapon and this class intelligently decides of what weapon
+     * can fight with to counter the player's weapon.
+     * it also makes validation on the strength of the weapon and the character's left over strength.
+     *
+     */
     public void fightEnemy(String name) {
         gameValidator = new GameValidator();
         if (session.getCurrentGameOver() == null) {
@@ -51,6 +65,12 @@ public class FightModuleProcessor {
         }
     }
 
+    /**
+     * Method : fightEnemy
+     * @param playerWeapon
+     * after specific checks in fightEnemy(String). this methods gets executed to choose emeny weapon and fight
+     * the players weapon.
+     */
     public void fightEnemy(Weapon playerWeapon) {
         Weapon selectedWeapon = null;
         String status = null;
@@ -85,6 +105,13 @@ public class FightModuleProcessor {
     }
 
 
+    /**
+     * Method : handleComms
+     * @param playerWeapon
+     * @param enemyWeapon
+     * @param status
+     * This method helps to fight enemy and deduct the strength of the weapon used
+     */
     public void handleComms(Weapon playerWeapon, Weapon enemyWeapon, String status) {
         Member selected = session.getSelected();
         Member enemy = session.getEnemy();
@@ -104,6 +131,11 @@ public class FightModuleProcessor {
         }
     }
 
+    /**
+     * Method : checkGameStatus
+     * post using the weapon resources, this method checks the status of the players and enemy if they
+     * have strength to fight more or one of them has lost the game.
+     */
     public void checkGameStatus() {
         if (session.getEnemyWeapons().isEmpty() && session.getSelectedWeapons().isEmpty()) {
             if (session.getSelected().getStrength() < session.getEnemy().getStrength()) {
@@ -130,6 +162,12 @@ public class FightModuleProcessor {
         }
     }
 
+    /**
+     * Method : precheckSelectedWeapon
+     * @param selectedWeapon
+     * @return Boolean.TRUE/Boolean.FALSE
+     * after choosing the weapon it helps to see if choosen weapon is good enough to fight by enemy.
+     */
     public Boolean precheckSelectedWeapon(Weapon selectedWeapon) {
         if (!gameValidator.canUserFightWithWeapon(session.getEnemy(), selectedWeapon)) {
             System.out.println(helpProperties.getProperty(ENEMY_NO_WEAPONS_LOST));

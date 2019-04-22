@@ -4,7 +4,14 @@ import java.io.Serializable;
 
 import static com.thrones.of.game.config.Constants.MAX_POINTS;
 import static com.thrones.of.game.config.Constants.MIN_POINTS;
-
+/**
+ * Name : PlayerProfile
+ * implements: Cloneable
+ * Model required to deep clone to create an instance in the running session.
+ * implements: Serializable
+ * Model required to be written into file, hence, serialization is required.
+ * Holds the player profile throughout.
+ */
 public class PlayerProfile implements Serializable, Cloneable {
 
     private String playerName;

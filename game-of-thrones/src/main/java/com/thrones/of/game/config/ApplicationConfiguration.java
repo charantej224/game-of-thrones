@@ -6,6 +6,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+/**
+ * Name : ApplicationConfiguration
+ * this is a singleton instance of the application level configuration.
+ * This copy is same across the application.
+ * Members:
+ *  - gameProperties
+ *  - patternProperties
+ *  - helptextProperties
+ *  - houseMap
+ */
 public class ApplicationConfiguration {
 
     private static ApplicationConfiguration applicationConfiguration;
@@ -19,7 +29,7 @@ public class ApplicationConfiguration {
 
     }
 
-    public static ApplicationConfiguration getApplicationConfiguration() {
+    public static ApplicationConfiguration getInstance() {
         return applicationConfiguration = (null != applicationConfiguration) ? applicationConfiguration : new ApplicationConfiguration();
     }
 

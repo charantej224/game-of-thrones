@@ -16,6 +16,13 @@ import java.util.Map;
         "members",
         "weapons"
 })
+/**
+ * Name : HousesModel
+ * implements: Cloneable
+ * Model required to deep clone to create an instance in the running session.
+ * implements: Serializable
+ * Model required to be written into file, hence, serialization is required.
+ */
 public class HousesModel implements Cloneable, Serializable {
 
     @JsonProperty("houseName")
