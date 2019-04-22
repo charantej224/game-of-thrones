@@ -28,7 +28,6 @@ public class StrengthBooster extends TimerTask {
         ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getInstance();
         Properties helpText = applicationConfiguration.getHelptextProperties();
         Session session = Session.getInstance();
-        System.out.println("Strength booster kick started");
         if (session.getCurrentGameOver() != null && !session.getCurrentGameOver()) {
             synchronized (session) {
                 Integer enemyStrength = session.getEnemy().getStrength();

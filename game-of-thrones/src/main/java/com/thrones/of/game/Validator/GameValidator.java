@@ -18,8 +18,8 @@ import static com.thrones.of.game.config.Constants.*;
 public class GameValidator {
 
     private Session session = Session.getInstance();
-    Properties helpProperties = ApplicationConfiguration.getInstance().getHelptextProperties();
-    Properties patternProperties = ApplicationConfiguration.getInstance().getPatternProperties();
+    private Properties helpProperties = ApplicationConfiguration.getInstance().getHelptextProperties();
+    private Properties patternProperties = ApplicationConfiguration.getInstance().getPatternProperties();
 
     /**
      * Method : canUserFightWithWeapon
