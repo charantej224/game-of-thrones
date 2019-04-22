@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 import static com.thrones.of.game.config.Constants.*;
 
+/**
+ *
+ */
 public class GameLauncher {
 
     private static GameLauncher gameLauncher;
@@ -18,11 +21,17 @@ public class GameLauncher {
     private GameLauncher() {
     }
 
+    /**
+     * @return
+     */
     public static GameLauncher getGamelauncher() {
         return gameLauncher = (null != gameLauncher) ? gameLauncher : new GameLauncher();
     }
 
-    public void launchGame() throws Exception {
+    /**
+     *
+     */
+    public void launchGame() {
         init();
         boolean isGameRunning = true;
         Scanner in = new Scanner(System.in);
@@ -35,6 +44,9 @@ public class GameLauncher {
         }
     }
 
+    /**
+     *
+     */
     private void init() {
         (new MessagePrinter()).printStartupMessages();
         GameValidator validator = new GameValidator();

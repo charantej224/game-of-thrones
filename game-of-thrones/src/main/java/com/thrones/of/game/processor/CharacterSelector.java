@@ -30,6 +30,7 @@ public class CharacterSelector {
             session.setSelectedWeapons(selectedHouse.getWeapons());
         } else {
             System.out.println(RED + helpProperties.getProperty(HOUSE_NOT_FOUND));
+            session.setUpdateStagePostCommand(Boolean.FALSE);
         }
     }
 
@@ -51,6 +52,7 @@ public class CharacterSelector {
             session.setEnemyWeapons(enemyHouse.getWeapons());
         } else {
             System.out.println(RED + helpProperties.getProperty(HOUSE_NOT_FOUND));
+            session.setUpdateStagePostCommand(Boolean.FALSE);
         }
     }
 
@@ -66,7 +68,7 @@ public class CharacterSelector {
             session.setEnemy(optionalMember.get().clone());
         } else {
             System.out.println(RED + helpProperties.getProperty(NO_MEMBER));
-
+            session.setUpdateStagePostCommand(Boolean.FALSE);
         }
     }
 
@@ -82,7 +84,7 @@ public class CharacterSelector {
             session.setSelected(optionalMember.get().clone());
         } else {
             System.out.println(RED + helpProperties.getProperty(NO_MEMBER));
-
+            session.setUpdateStagePostCommand(Boolean.FALSE);
         }
     }
 

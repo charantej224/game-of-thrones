@@ -62,6 +62,7 @@ public class Constants {
     public static final String PLAYER_NAME = "PLAYER_NAME";
     public static final String PLAYER_LEVEL = "PLAYER_LEVEL";
     public static final String PLAYER_POINTS = "PLAYER_POINTS";
+    public static final String NEW_GAME_NOT_ALLOWED = "NEW_GAME_NOT_ALLOWED";
 
     public static final Integer MAX_POINTS = 100;
     public static final Integer MIN_POINTS = 0;

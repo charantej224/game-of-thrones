@@ -17,8 +17,11 @@ public class EntryProcessor {
     private Session session = Session.getInstance();
 
     public void registerPlayer(String name) {
-        if (!validator.validateRegistry(name))
+        if (!validator.validateRegistry(name)){
+            session.setUpdateStagePostCommand(Boolean.FALSE);
             return;
+        }
+
         PlayerProfile playerProfile = new PlayerProfile();
         playerProfile.setPlayerName(name);
         session.setPlayerProfile(playerProfile);
@@ -31,10 +34,17 @@ public class EntryProcessor {
     }
 
     public void startNewGame(String name) {
-        System.out.println(GREEN + helpProperties.getProperty(NEW_GAME).replace("$$", name));
-        PlayerProfile playerProfile = session.getPlayerProfile().clone();
-        session.clearSession();
-        Session.getInstance().setPlayerProfile(playerProfile);
+        if(session.getPlayerProfile() != null){
+            System.out.println(GREEN + helpProperties.getProperty(NEW_GAME).replace("$$", name));
+            PlayerProfile playerProfile = session.getPlayerProfile().clone();
+            session.clearSession();
+            Session.getInstance().setPlayerProfile(playerProfile);
+            // player already registered, so when new game there is not need for him to register again
+            Session.getInstance().setCurrentStage(20);
+        } else {
+            System.out.println(GREEN + helpProperties.getProperty(NEW_GAME_NOT_ALLOWED));
+        }
+
     }
 }
 

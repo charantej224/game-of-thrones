@@ -1,7 +1,7 @@
 package com.thrones.of.game.domain;
 
 public enum PlayerLevel {
-    BEGINNER(10), INTERMEDIATE(20), ADVANCED(50), PROFESSIONAL(80);
+    BEGINNER(1), INTERMEDIATE(2), ADVANCED(4), PROFESSIONAL(8);
 
     private int points;
 

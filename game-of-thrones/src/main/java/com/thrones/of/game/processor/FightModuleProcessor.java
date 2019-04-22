@@ -32,6 +32,7 @@ public class FightModuleProcessor {
         if (!gameValidator.isSelectedUserHavingWeapons()) {
             System.out.println(helpProperties.getProperty(LOST_GAME_NO_WEAPON_ELIGIBLE));
             session.getPlayerProfile().updateLostGames();
+            return;
         }
 
         Optional<Weapon> weaponOptional = session.getSelectedWeapons().stream()
@@ -46,6 +47,7 @@ public class FightModuleProcessor {
             fightEnemy(weaponOptional.get());
         } else {
             System.out.println(helpProperties.getProperty(NO_WEAPON_FOUND));
+            return;
         }
     }
 
@@ -66,9 +68,14 @@ public class FightModuleProcessor {
                     selectedWeapon = enemy;
                     status = "MORE";
                 }
-            } else if (enemy.getStrength() > playerWeapon.getStrength() && selectedWeapon == null) {
-                selectedWeapon = enemy;
-                status = "LESS";
+            } else if (enemy.getStrength() > playerWeapon.getStrength()) {
+                if (selectedWeapon == null) {
+                    selectedWeapon = enemy;
+                    status = "LESS";
+                } else if(selectedWeapon.getStrength() > enemy.getStrength()){
+                    selectedWeapon = enemy;
+                    status = "LESS";
+                }
             }
         }
         if (!precheckSelectedWeapon(selectedWeapon))
@@ -93,7 +100,7 @@ public class FightModuleProcessor {
             session.getEnemyWeapons().remove(enemyWeapon);
         } else if ("LESS".equalsIgnoreCase(status)) {
             System.out.println(helpProperties.getProperty(YOUR_WEAPON_KILLED).replace("$$", playerWeapon.getName()).replace("**", enemyWeapon.getName()));
-            session.getEnemyWeapons().remove(enemyWeapon);
+            session.getSelectedWeapons().remove(playerWeapon);
         }
     }
 

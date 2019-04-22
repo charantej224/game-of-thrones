@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.TimerTask;
 
 import static com.thrones.of.game.config.Constants.STENGTH_BOOST;
+import static com.thrones.of.game.config.Constants.YELLOW;
 
 public class StrengthBooster extends TimerTask {
 
@@ -15,6 +16,7 @@ public class StrengthBooster extends TimerTask {
         ApplicationConfiguration applicationConfiguration = ApplicationConfiguration.getApplicationConfiguration();
         Properties helpText = applicationConfiguration.getHelptextProperties();
         Session session = Session.getInstance();
+        System.out.println("Strength booster kick started");
         if (session.getCurrentGameOver() != null && !session.getCurrentGameOver()) {
             synchronized (session) {
                 Integer enemyStrength = session.getEnemy().getStrength();
@@ -25,7 +27,7 @@ public class StrengthBooster extends TimerTask {
                 if (playerStrength < 100)
                     session.getSelected().setStrength(playerStrength + 10);
             }
-            System.out.println(helpText.getProperty(STENGTH_BOOST));
+            System.out.println(YELLOW + helpText.getProperty(STENGTH_BOOST));
         }
     }
 }
