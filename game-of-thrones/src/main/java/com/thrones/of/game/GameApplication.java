@@ -23,7 +23,8 @@ public class GameApplication {
         Session.getInstance();
         Timer timer = new Timer();
         TimerTask task = new StrengthBooster();
-        timer.schedule(task,1000*60);
+        System.out.println("Starting the strength booster in the background");
+        timer.scheduleAtFixedRate(task,1000*60,1000*60);
         GameLauncher.getInstance().launchGame();
     }
 
