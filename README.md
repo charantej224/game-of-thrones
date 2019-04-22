@@ -1,4 +1,27 @@
-# game-of-thrones
+# Game Of Thrones - Command Line Role playing game
+
+Test Coverage (94%)
+-----------------------------------------------------------------------
+command
+```
+mvn clean test
+```
+jacoco report :
+```
+./target/site/jacoco/index.html
+```
+Note: Excluded classes are domain classes and main methods.
+
+Building packages
+-----------------------------------------------------------------------
+command
+```
+mvn clean package
+java -jar target/game_of_thrones.jar
+```
+
+## Game Overview
+
 This is a game of seven kingdom to cliam the throne of Seven Kingdoms. There are in total 8 houses in the game and are set to fight with each other. Through the course of game your computer assisted 'commander' will help you with hints to play the game. it can also recommend the game moves for you.
 
 Game asks you to register if you are new to game and identifies if you are existing user. to register the game.
@@ -70,6 +93,9 @@ to explore single house in details
 ```
 explore house <full or partial name>
 ```
+
+Note: if the command is not understood, then application will ask to train the application to recognize the command
+
 
 
 
