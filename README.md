@@ -16,8 +16,8 @@ Building packages
 -----------------------------------------------------------------------
 command
 ```
-mvn clean package
-java -jar target/game_of_thrones.jar
+1. mvn clean package
+2. java -jar target/game_of_thrones.jar
 ```
 Note: Best recommended with IntelliJ IDE.
 
