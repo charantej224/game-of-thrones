@@ -33,6 +33,14 @@ if you wish to de-register your self.
 ```
 remove <Name which you entered already>
 ```
+Before you choose your house, if you wish to understand houses available. Explore available houses using below command.
+```
+explore house all
+```
+Given the above command gives breif information about the house, if you wish to know the characters available within the house. you need to explore a specific house.
+```
+explore house <full or partial name>
+```
 once you are registered, you should select the house with which you want to battle the enemy.
 ```
 PLAYHOUSE <full/or partial name of house>
