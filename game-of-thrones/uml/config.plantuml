@@ -1,0 +1,166 @@
+@startuml
+
+title __CONFIG's Class Diagram__\n
+
+  package com.thrones.of.game {
+    package com.thrones.of.game.config {
+      class ApplicationConfiguration {
+          {static} - applicationConfiguration : ApplicationConfiguration
+          - gameProperties : Properties
+          - patternProperties : Properties
+          - helptextProperties : Properties
+          - houseMap : Map<String, HousesModel>
+          - ApplicationConfiguration()
+          {static} + getInstance()
+          + getPatternProperties()
+          + setPatternProperties()
+          + getGameProperties()
+          + setGameProperties()
+          + getHouseMap()
+          + setHouseMap()
+          + getHelptextProperties()
+          + setHelptextProperties()
+      }
+    }
+  }
+  
+
+  package com.thrones.of.game {
+    package com.thrones.of.game.config {
+      class Constants {
+          {static} + NAME_ALREADY_REGISTERED : String
+          {static} + ENTRY_WELCOME : String
+          {static} + HINT_ENTRY_WELCOME : String
+          {static} + NAME_REGISTERED : String
+          {static} + NAME_DEREGISTERED : String
+          {static} + EXIT_MESSAGE : String
+          {static} + HOUSE_SELECTED : String
+          {static} + ENEMY_HOUSE_SELECTED : String
+          {static} + HOUSE_TAG : String
+          {static} + HOUSE_NOT_FOUND : String
+          {static} + CHOOSE_MEMBERS : String
+          {static} + HOUSE_NOT_SELECTED : String
+          {static} + ENEMY_SELECTED_SAMEHOUSE : String
+          {static} + ENEMY_SELECTED : String
+          {static} + NO_MEMBER : String
+          {static} + MEMBER_SELECTED : String
+          {static} + SESSION_INFO : String
+          {static} + HOUSE_INFO : String
+          {static} + MEMBER_INFO : String
+          {static} + ENEMY_HOUSE_INFO : String
+          {static} + ENEMY_INFO : String
+          {static} + SESSION_NOT_READY : String
+          {static} + PROFILE_SAVED : String
+          {static} + PLAYER_STRENGTH : String
+          {static} + PLAYER_WEAPONS : String
+          {static} + NO_WEAPON_FOUND : String
+          {static} + FIGHT_WEAPON : String
+          {static} + YOU_WIN : String
+          {static} + YOU_LOSE : String
+          {static} + YOU_TIED : String
+          {static} + ENEMY_NO_WEAPONS_LOST : String
+          {static} + YOU_NO_WEAPONS_LOST : String
+          {static} + YOUR_WEAPON_KILLED : String
+          {static} + ENEMY_WEAPON_KILLED : String
+          {static} + NO_STRENGTH : String
+          {static} + NEW_GAME : String
+          {static} + TRAIN_ME : String
+          {static} + TRAIN_ME1 : String
+          {static} + STENGTH_BOOST : String
+          {static} + LOST_GAME_NO_WEAPON_ELIGIBLE : String
+          {static} + NO_FIGHT_GAME_OVER : String
+          {static} + HINT_NO_FIGHT_GAME_OVER : String
+          {static} + INTRO : String
+          {static} + NAME_INVALID : String
+          {static} + COMMAND_NOT_ALLOWED : String
+          {static} + HINT_COMMAND_NOT_ALLOWED : String
+          {static} + COMMAND : String
+          {static} + PATTERN : String
+          {static} + WELCOME_BACK : String
+          {static} + USE_COMMANDS : String
+          {static} + NON_GAME_COMMANDS : String
+          {static} + BLANK_LINE : String
+          {static} + YOUR_COMMAND : String
+          {static} + RECOMMEND_COMMANDS : String
+          {static} + PLAYER_WINS : String
+          {static} + PLAYER_LOST : String
+          {static} + PLAYER_TIES : String
+          {static} + PLAYER_NAME : String
+          {static} + PLAYER_LEVEL : String
+          {static} + PLAYER_POINTS : String
+          {static} + NEW_GAME_NOT_ALLOWED : String
+          {static} + NO_SUCH_HOUSE : String
+          {static} + MAX_POINTS : Integer
+          {static} + MIN_POINTS : Integer
+          {static} + RESET : String
+          {static} + BLACK : String
+          {static} + RED : String
+          {static} + GREEN : String
+          {static} + YELLOW : String
+          {static} + BLUE : String
+          {static} + PURPLE : String
+          {static} + CYAN : String
+          {static} + WHITE : String
+          {static} + BLACK_BOLD : String
+          {static} + RED_BOLD : String
+          {static} + GREEN_BOLD : String
+          {static} + YELLOW_BOLD : String
+          {static} + BLUE_BOLD : String
+          {static} + PURPLE_BOLD : String
+          {static} + CYAN_BOLD : String
+          {static} + WHITE_BOLD : String
+          {static} + BLACK_UNDERLINED : String
+          {static} + RED_UNDERLINED : String
+          {static} + GREEN_UNDERLINED : String
+          {static} + YELLOW_UNDERLINED : String
+          {static} + BLUE_UNDERLINED : String
+          {static} + PURPLE_UNDERLINED : String
+          {static} + CYAN_UNDERLINED : String
+          {static} + WHITE_UNDERLINED : String
+          {static} + BLACK_BACKGROUND : String
+          {static} + RED_BACKGROUND : String
+          {static} + GREEN_BACKGROUND : String
+          {static} + YELLOW_BACKGROUND : String
+          {static} + BLUE_BACKGROUND : String
+          {static} + PURPLE_BACKGROUND : String
+          {static} + CYAN_BACKGROUND : String
+          {static} + WHITE_BACKGROUND : String
+          {static} + BLACK_BRIGHT : String
+          {static} + RED_BRIGHT : String
+          {static} + GREEN_BRIGHT : String
+          {static} + YELLOW_BRIGHT : String
+          {static} + BLUE_BRIGHT : String
+          {static} + PURPLE_BRIGHT : String
+          {static} + CYAN_BRIGHT : String
+          {static} + WHITE_BRIGHT : String
+          {static} + BLACK_BOLD_BRIGHT : String
+          {static} + RED_BOLD_BRIGHT : String
+          {static} + GREEN_BOLD_BRIGHT : String
+          {static} + YELLOW_BOLD_BRIGHT : String
+          {static} + BLUE_BOLD_BRIGHT : String
+          {static} + PURPLE_BOLD_BRIGHT : String
+          {static} + CYAN_BOLD_BRIGHT : String
+          {static} + WHITE_BOLD_BRIGHT : String
+          {static} + BLACK_BACKGROUND_BRIGHT : String
+          {static} + RED_BACKGROUND_BRIGHT : String
+          {static} + GREEN_BACKGROUND_BRIGHT : String
+          {static} + YELLOW_BACKGROUND_BRIGHT : String
+          {static} + BLUE_BACKGROUND_BRIGHT : String
+          {static} + PURPLE_BACKGROUND_BRIGHT : String
+          {static} + CYAN_BACKGROUND_BRIGHT : String
+          {static} + WHITE_BACKGROUND_BRIGHT : String
+      }
+    }
+  }
+  
+
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
