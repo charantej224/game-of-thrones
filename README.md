@@ -21,6 +21,8 @@ command
 ```
 Note: Best recommended with IntelliJ IDE.
 
+UML Diagrams are present under the "uml" folder of source
+
 ## Game Overview
 
 This is a game of seven kingdom to cliam the throne of Seven Kingdoms. There are in total 8 houses in the game and are set to fight with each other. Through the course of game your computer assisted 'commander' will help you with hints to play the game. it can also recommend the game moves for you.
